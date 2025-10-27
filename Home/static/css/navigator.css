@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+/* --- Scroll Reveal Animation Base Styles --- */
+.scroll-reveal {
+    opacity: 0;
+    transition: opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+                transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    /* Initial transforms based on animation type */
+}
+
+/* Animation Types */
+.slide-up { transform: translateY(50px); }
+.slide-left { transform: translateX(-50px); }
+.slide-right { transform: translateX(50px); }
+.zoom-in { transform: scale(0.8); transition: opacity 1.2s ease-out, transform 1.2s ease-out; }
+
+
+/* Active State (Applies to all) */
+.scroll-reveal.visible {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+}
+
+/* Hero specific glow effect */
+#hero-section {
+    background: radial-gradient(circle at 50% 10%, rgba(5, 150, 105, 0.15) 0%, rgba(17, 24, 39, 1) 45%);
+}

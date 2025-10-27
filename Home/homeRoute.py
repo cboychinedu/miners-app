@@ -19,7 +19,7 @@ def HomePage():
 
 
 # Creating a route for the how it works page 
-@home.route('/howItWorks')
+@home.route('/how-it-works')
 def howItWorks():
     """
     Renders the How It Works page, explaining the process.

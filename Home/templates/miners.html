@@ -7,53 +7,76 @@
     <!-- Load Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Configure Tailwind for Inter font and custom colors -->
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        'primary': '#059669', // Emerald Green
-                        'accent': '#3b82f6',  // Blue for action
-                    },
-                    fontFamily: {
-                        sans: ['Inter', 'sans-serif'],
-                    },
-                }
-            }
-        }
-    </script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
-        /* Custom style for the maximum tier block */
-        .max-tier-glow {
-            box-shadow: 0 0 40px rgba(5, 150, 105, 0.4);
-        }
-    </style>
+       <!-- Load Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind for Inter font and custom colors -->
+    <script src="{{ url_for('.static', filename='js/header.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('.static', filename='css/navigator.css') }}">
 </head>
-<body class="bg-gray-900 text-gray-100 font-sans">
+<body class="bg-dark-bg text-gray-100 font-sans">
 
-    <!-- Header & Navigation -->
+<!-- Header & Navigation -->
     <header class="p-4 bg-card-bg shadow-lg sticky top-0 z-50">
-        <div class="max-w-7xl mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-primary tracking-wider">
-                Miner<span class="text-accent">Hub</span>
-            </h1>
-            <nav class="hidden md:flex space-x-6">
-                <a href="/miners" class="hover:text-primary transition duration-300">Miners</a>
-                <a href="/howItWorks" class="hover:text-primary transition duration-300">How It Works</a>
-                <a href="/about" class="hover:text-primary transition duration-300">About</a>
-            </nav>
-            <div class="space-x-4">
-                <a href="/login" class="px-4 py-2 text-sm font-semibold rounded-lg hover:bg-gray-700 transition duration-300">
-                    Login
-                </a>
-                <a href="/signup" class="bg-primary hover:bg-green-700 text-white font-semibold px-4 py-2 text-sm rounded-lg shadow-md transition duration-300">
-                    Sign Up
-                </a>
+        <div class="max-w-7xl mx-auto">
+            <!-- Top Bar: Logo, Desktop Nav, Mobile Toggle -->
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-primary tracking-wider">
+                    Miner<span class="text-accent">Hub</span>
+                </h1>
+                
+                <!-- Desktop Nav and Buttons (Hidden on Mobile) -->
+                <div class="hidden md:flex items-center space-x-6">
+                    <nav class="space-x-6">
+                        <a href="/" class="hover:text-primary transition duration-300"> Home </a>
+                        <a href="/miners" class="hover:text-primary transition duration-300">Miners</a>
+                        <a href="/how-it-works" class="hover:text-primary transition duration-300">How It Works</a>
+                        <a href="/about" class="hover:text-primary transition duration-300">About</a>
+                    </nav>
+                    <div class="space-x-4">
+                        <a href="/login" class="px-4 py-2 text-sm font-semibold rounded-lg hover:bg-gray-700 transition duration-300">
+                            Login
+                        </a>
+                        <a href="/signup" class="bg-primary hover:bg-green-700 text-white font-semibold px-4 py-2 text-sm rounded-lg shadow-md transition duration-300">
+                            Sign Up
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Mobile Menu Button (Visible on Mobile) -->
+                <button id="mobile-menu-button" class="md:hidden text-gray-100 hover:text-primary p-2 rounded-lg transition duration-300">
+                    <!-- Hamburger SVG -->
+                    <svg id="menu-icon-open" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    <!-- Close X SVG (Hidden by default) -->
+                    <svg id="menu-icon-close" class="h-6 w-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+
+            <!-- Mobile Menu Dropdown (Hidden by default) -->
+            <div id="mobile-menu" class="hidden md:hidden pt-4 mt-4 border-t border-gray-700">
+                <nav class="flex flex-col space-y-3">
+                    <a href="/" class="block py-2 px-4 hover:bg-gray-700 rounded-lg transition duration-300"> Home </a>
+                    <a href="/miners" class="block py-2 px-4 hover:bg-gray-700 rounded-lg transition duration-300">Miners</a>
+                    <a href="/how-it-works" class="block py-2 px-4 hover:bg-gray-700 rounded-lg transition duration-300">How It Works</a>
+                    <a href="/about" class="block py-2 px-4 hover:bg-gray-700 rounded-lg transition duration-300">About</a>
+                </nav>
+                <div class="flex flex-col space-y-3 mt-6">
+                    <!-- Login Button -->
+                    <a href="/login" class="w-full text-center px-4 py-2 font-semibold rounded-lg hover:bg-gray-700 transition duration-300 border border-gray-600">
+                        Login
+                    </a>
+                    <!-- Sign Up Button -->
+                    <a href="/signup" class="w-full text-center bg-primary hover:bg-green-700 text-white font-semibold px-4 py-2 rounded-lg shadow-md transition duration-300">
+                        Sign Up
+                    </a>
+                </div>
             </div>
         </div>
     </header>
+
 
     <main class="max-w-7xl mx-auto p-4 md:p-8">
 
@@ -137,5 +160,7 @@
         </div>
     </footer>
 
+    <!-- JavaScript for Scroll Reveal Implementation -->
+    <script src="{{ url_for('.static', filename='js/navigator.js') }}"></script>
 </body>
 </html>
