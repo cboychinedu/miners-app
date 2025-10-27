@@ -70,8 +70,21 @@ def LoginPage():
 @home.route("/signup", methods=["GET", "POST"])
 def SignUp(): 
     # if the request is a post request 
-    if request.method == "POST": 
-        pass 
+    if request.method == "POST":
+        # Get the user data 
+        userData = request.get_json(); 
+
+        # Getting the user password, and email address 
+        password = userData["password"]
+        email = userData['email']
+
+        print(password)
+        print(email) 
+
+        return jsonify({
+            "status": "success", 
+            "message": "user logged in"
+        }) 
 
     # Else 
     else: 
