@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How It Works | MinerHub</title>
+    <!-- Load Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind for Inter font and custom colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#059669', // Emerald Green
+                        'accent': '#3b82f6',  // Blue for action
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+        /* Custom step indicator styling */
+        .step-indicator {
+            background-color: #059669; /* primary */
+            border: 4px solid #1f2937; /* gray-800 */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+
+    <!-- Header & Navigation -->
+    <header class="p-4 bg-card-bg shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-primary tracking-wider">
+                Miner<span class="text-accent">Hub</span>
+            </h1>
+            <nav class="hidden md:flex space-x-6">
+                <a href="/miners" class="hover:text-primary transition duration-300">Miners</a>
+                <a href="/howItWorks" class="hover:text-primary transition duration-300">How It Works</a>
+                <a href="/about" class="hover:text-primary transition duration-300">About</a>
+            </nav>
+            <div class="space-x-4">
+                <a href="/login" class="px-4 py-2 text-sm font-semibold rounded-lg hover:bg-gray-700 transition duration-300">
+                    Login
+                </a>
+                <a href="/signup" class="bg-primary hover:bg-green-700 text-white font-semibold px-4 py-2 text-sm rounded-lg shadow-md transition duration-300">
+                    Sign Up
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-4 md:p-8">
+
+        <!-- Page Header -->
+        <section class="text-center py-10 mb-12 border-b border-gray-700">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-3 text-gray-50">
+                Your 3-Step Income Cycle
+            </h2>
+            <p class="text-lg text-gray-400 max-w-4xl mx-auto">
+                Getting started with MinerHub is simple and secure. Follow these steps to begin earning guaranteed returns.
+            </p>
+        </section>
+
+        <!-- Process Steps Section -->
+        <section class="mb-16">
+            <div class="relative flex flex-col items-center">
+                <!-- Timeline Line (Hidden on Mobile, Displayed on Desktop) -->
+                <div class="hidden lg:block absolute h-full w-0.5 bg-gray-700 top-0 left-1/2 transform -translate-x-1/2"></div>
+
+                <!-- Step 1: Deposit -->
+                <div class="w-full lg:flex justify-start lg:mb-12">
+                    <div class="lg:w-1/2 p-4 lg:pr-12 text-center lg:text-right bg-gray-800 rounded-xl shadow-lg relative mb-8 lg:mb-0">
+                        <div class="lg:absolute lg:right-0 lg:top-1/2 lg:transform lg:translate-x-1/2 lg:-translate-y-1/2 step-indicator w-10 h-10 rounded-full flex items-center justify-center font-bold text-white text-xl">1</div>
+                        <h3 class="text-2xl font-bold text-accent mb-2">Secure Deposit (NGN 4,500 Min)</h3>
+                        <p class="text-gray-300">
+                            Fund your account using our integrated Flutterwave payment gateway. A minimum deposit of <span class="text-primary font-bold">NGN 4,500</span> is required before you can purchase a miner or post a link. The maximum deposit limit is NGN 2,000,000.
+                        </p>
+                        <p class="text-sm text-gray-500 mt-2">
+                            *All transactions are processed securely via Flutterwave.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 2: Purchase Miner -->
+                <div class="w-full lg:flex justify-end lg:mb-12">
+                    <div class="lg:w-1/2 p-4 lg:pl-12 text-center lg:text-left bg-gray-800 rounded-xl shadow-lg relative mb-8 lg:mb-0">
+                        <div class="lg:absolute lg:left-0 lg:top-1/2 lg:transform lg:-translate-x-1/2 lg:-translate-y-1/2 step-indicator w-10 h-10 rounded-full flex items-center justify-center font-bold text-white text-xl">2</div>
+                        <h3 class="text-2xl font-bold text-accent mb-2">Choose & Activate Your Miner</h3>
+                        <p class="text-gray-300">
+                            Browse the <a href="/miners" class="text-primary hover:underline font-semibold">Miners page</a> and select the PRO tier that fits your investment goal. Miner tiers start at NGN 4,500 and go up to NGN 28,500 (or custom tiers up to 2,000,000). Once purchased, the miner's cycle begins immediately.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 3: Receive Income -->
+                <div class="w-full lg:flex justify-start">
+                    <div class="lg:w-1/2 p-4 lg:pr-12 text-center lg:text-right bg-gray-800 rounded-xl shadow-lg relative">
+                        <div class="lg:absolute lg:right-0 lg:top-1/2 lg:transform lg:translate-x-1/2 lg:-translate-y-1/2 step-indicator w-10 h-10 rounded-full flex items-center justify-center font-bold text-white text-xl">3</div>
+                        <h3 class="text-2xl font-bold text-accent mb-2">Fixed Cycle Returns</h3>
+                        <p class="text-gray-300">
+                            Each miner tier has a fixed income and cycle duration (e.g., PRO I: NGN 9,000 income over 20 days). Once the cycle is complete, the total income is credited to your balance and the miner ceases operation. You can then choose to withdraw your funds or repurchase a new miner.
+                        </p>
+                        <p class="text-sm text-gray-500 mt-2">
+                            *You have full access and control over your account and login credentials.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="text-center py-12 bg-gray-800 rounded-xl shadow-2xl border-2 border-accent mt-16">
+            <h3 class="text-3xl font-bold text-gray-50 mb-4">Ready to Start Earning?</h3>
+            <p class="text-lg text-gray-400 mb-6">
+                Start your investment journey with a minimum deposit of NGN 4,500 today.
+            </p>
+            <a href="/miners" class="inline-block bg-primary hover:bg-green-700 text-white font-bold py-3 px-8 rounded-xl shadow-lg transition duration-300 transform hover:scale-105">
+                View All Miners
+            </a>
+        </section>
+        
+    </main>
+
+    <!-- Footer -->
+    <footer class="p-6 bg-gray-800 mt-12">
+        <div class="max-w-7xl mx-auto text-center text-gray-500 text-sm">
+            <p>&copy; 2024 MinerHub. All rights reserved. | <a href="#" class="hover:text-primary">Privacy Policy</a></p>
+            <p class="mt-2">This platform is also available as a dedicated mobile application (App) and accessible via web link.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

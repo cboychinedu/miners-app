@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoMiner Hub | Invest & Grow</title>
+    <!-- Load Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Configure Tailwind for Inter font and custom colors -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#059669', // Emerald Green
+                        'accent': '#3b82f6',  // Blue for action
+                        'dark-bg': '#111827', // Gray-900 equivalent
+                        'card-bg': '#1f2937', // Gray-800 equivalent
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+        /* --- Scroll Reveal Animation Base Styles --- */
+        .scroll-reveal {
+            opacity: 0;
+            transition: opacity 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94), 
+                        transform 1.2s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            /* Initial transforms based on animation type */
+        }
+        
+        /* Animation Types */
+        .slide-up { transform: translateY(50px); }
+        .slide-left { transform: translateX(-50px); }
+        .slide-right { transform: translateX(50px); }
+        .zoom-in { transform: scale(0.8); transition: opacity 1.2s ease-out, transform 1.2s ease-out; }
+
+
+        /* Active State (Applies to all) */
+        .scroll-reveal.visible {
+            opacity: 1;
+            transform: translate(0, 0) scale(1);
+        }
+
+        /* Hero specific glow effect */
+        #hero-section {
+            background: radial-gradient(circle at 50% 10%, rgba(5, 150, 105, 0.15) 0%, rgba(17, 24, 39, 1) 45%);
+        }
+    </style>
+</head>
+<body class="bg-dark-bg text-gray-100 font-sans">
+
+    <!-- Header & Navigation -->
+    <header class="p-4 bg-card-bg shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-primary tracking-wider">
+                Miner<span class="text-accent">Hub</span>
+            </h1>
+            <nav class="hidden md:flex space-x-6">
+                <a href="/miners" class="hover:text-primary transition duration-300">Miners</a>
+                <a href="/howItWorks" class="hover:text-primary transition duration-300">How It Works</a>
+                <a href="/about" class="hover:text-primary transition duration-300">About</a>
+            </nav>
+            <div class="space-x-4">
+                <a href="/login" class="px-4 py-2 text-sm font-semibold rounded-lg hover:bg-gray-700 transition duration-300">
+                    Login
+                </a>
+                <a href="/signup" class="bg-primary hover:bg-green-700 text-white font-semibold px-4 py-2 text-sm rounded-lg shadow-md transition duration-300">
+                    Sign Up
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto p-4 md:p-8">
+
+        <!-- 1. Hero Section (Immediate Visibility) -->
+        <section id="hero-section" class="text-center py-20 md:py-32 mb-12 rounded-xl shadow-2xl">
+            <div class="scroll-reveal slide-up inline-block">
+                <h2 class="text-5xl md:text-7xl font-extrabold mb-4 leading-tight">
+                    Power Your <span class="text-primary block md:inline">Financial Future</span>
+                </h2>
+            </div>
+            <div class="scroll-reveal slide-up delay-300 inline-block">
+                <p class="text-xl text-gray-400 mb-10 max-w-4xl mx-auto">
+                    Invest in fixed-cycle miners and earn predictable, guaranteed passive income. Decentralized wealth, simplified for you.
+                </p>
+            </div>
+            <div class="scroll-reveal zoom-in delay-600 inline-block">
+                <a href="/miners" class="inline-block bg-accent hover:bg-blue-600 text-white font-bold py-3 px-12 text-lg rounded-xl shadow-lg transition duration-300 transform hover:scale-105">
+                    Explore Miners Now
+                </a>
+            </div>
+            <div class="scroll-reveal slide-up delay-900 mt-8 text-gray-500 text-sm">
+                Securely partnered with Flutterwave for all deposits.
+            </div>
+        </section>
+
+        <!-- 2. Value Proposition / Key Metrics -->
+        <section class="py-16">
+            <h3 class="scroll-reveal slide-up text-4xl font-bold text-center mb-12 text-primary">
+                Why MinerHub Stands Out
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="scroll-reveal slide-left bg-card-bg p-8 rounded-xl shadow-2xl border-t-4 border-accent">
+                    <p class="text-6xl font-extrabold text-accent mb-3">100%</p>
+                    <h4 class="text-xl font-semibold mb-2">Guaranteed Returns</h4>
+                    <p class="text-gray-400 text-sm">Every miner tier has a fixed income outcome at the end of the cycle. No market volatility risks.</p>
+                </div>
+                
+                <div class="scroll-reveal slide-up bg-card-bg p-8 rounded-xl shadow-2xl border-t-4 border-primary">
+                    <p class="text-6xl font-extrabold text-primary mb-3">NGN</p>
+                    <h4 class="text-xl font-semibold mb-2">Local Currency Deposits</h4>
+                    <p class="text-gray-400 text-sm">Seamless transactions using local bank transfers via Flutterwave, starting from NGN 4,500.</p>
+                </div>
+                
+                <div class="scroll-reveal slide-right bg-card-bg p-8 rounded-xl shadow-2xl border-t-4 border-accent">
+                    <p class="text-6xl font-extrabold text-accent mb-3">24/7</p>
+                    <h4 class="text-xl font-semibold mb-2">Account Control</h4>
+                    <p class="text-gray-400 text-sm">Full ownership of your dashboard and credentials, accessible via App or web link anytime.</p>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- 3. Simple Process Timeline -->
+        <section class="py-16">
+            <h3 class="scroll-reveal slide-up text-4xl font-bold text-center mb-16 text-primary">
+                Get Started in Three Easy Steps
+            </h3>
+            
+            <div class="space-y-12">
+                <!-- Step 1 -->
+                <div class="scroll-reveal slide-left flex items-center bg-card-bg p-6 rounded-xl shadow-2xl">
+                    <div class="h-16 w-16 min-w-16 flex items-center justify-center bg-primary rounded-full text-2xl font-bold mr-6">1</div>
+                    <div>
+                        <h4 class="text-2xl font-bold text-primary mb-1">Deposit Funds Securely</h4>
+                        <p class="text-gray-400">Fund your account balance starting with a minimum of **NGN 4,500** using our secure Flutterwave integration.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="scroll-reveal slide-right flex items-center bg-card-bg p-6 rounded-xl shadow-2xl">
+                    <div class="h-16 w-16 min-w-16 flex items-center justify-center bg-primary rounded-full text-2xl font-bold mr-6">2</div>
+                    <div>
+                        <h4 class="text-2xl font-bold text-primary mb-1">Activate a PRO Miner</h4>
+                        <p class="text-gray-400">Choose your desired **PRO Miner tier** from the available options. The fixed income cycle starts immediately upon purchase.</p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="scroll-reveal slide-left flex items-center bg-card-bg p-6 rounded-xl shadow-2xl">
+                    <div class="h-16 w-16 min-w-16 flex items-center justify-center bg-primary rounded-full text-2xl font-bold mr-6">3</div>
+                    <div>
+                        <h4 class="text-2xl font-bold text-primary mb-1">Collect Guaranteed Income</h4>
+                        <p class="text-gray-400">Upon the cycle's completion, your total income is automatically credited. Withdraw or reinvest!</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-reveal zoom-in text-center mt-12">
+                <a href="/how-it-works" class="inline-block text-accent hover:text-blue-500 font-semibold text-lg transition duration-300">
+                    See Detailed Steps →
+                </a>
+            </div>
+        </section>
+
+        <!-- 4. Miner Tiers Preview / CTA -->
+        <section class="py-16 bg-gray-800 rounded-xl shadow-2xl">
+            <h3 class="scroll-reveal slide-up text-4xl font-bold text-center mb-12 text-accent">
+                Meet the PRO Miners
+            </h3>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-4">
+                
+                <!-- Miner 1: PRO I -->
+                <div class="scroll-reveal slide-up bg-card-bg p-6 rounded-xl border border-primary transition duration-500 hover:shadow-[0_0_30px_rgba(5,150,105,0.7)]">
+                    <span class="text-3xl font-extrabold text-primary mb-2 block">PRO I</span>
+                    <p class="text-xl font-bold mb-4 text-gray-50">Entry Level Income</p>
+                    <p class="text-sm text-gray-400 mb-4">Price: <span class="font-bold text-green-400">NGN 4,500</span></p>
+                    <p class="text-sm text-gray-400 mb-6">Income: <span class="font-bold text-green-400">NGN 9,000 (20 Days)</span></p>
+                    <button class="w-full bg-accent hover:bg-blue-600 text-white font-semibold py-2 rounded-lg">View Details</button>
+                </div>
+                
+                <!-- Miner 2: PRO II -->
+                <div class="scroll-reveal slide-up delay-200 bg-card-bg p-6 rounded-xl border border-primary transition duration-500 hover:shadow-[0_0_30px_rgba(5,150,105,0.7)]">
+                    <span class="text-3xl font-extrabold text-primary mb-2 block">PRO II</span>
+                    <p class="text-xl font-bold mb-4 text-gray-50">Standard Earnings</p>
+                    <p class="text-sm text-gray-400 mb-4">Price: <span class="font-bold text-green-400">NGN 8,500</span></p>
+                    <p class="text-sm text-gray-400 mb-6">Income: <span class="font-bold text-green-400">NGN 17,000 (30 Days)</span></p>
+                    <button class="w-full bg-accent hover:bg-blue-600 text-white font-semibold py-2 rounded-lg">View Details</button>
+                </div>
+                
+                <!-- Miner 3: PRO III (Example of a larger tier preview) -->
+                <div class="scroll-reveal slide-up delay-400 bg-card-bg p-6 rounded-xl border border-primary transition duration-500 hover:shadow-[0_0_30px_rgba(5,150,105,0.7)]">
+                    <span class="text-3xl font-extrabold text-primary mb-2 block">PRO III</span>
+                    <p class="text-xl font-bold mb-4 text-gray-50">Premium Hash Rate</p>
+                    <p class="text-sm text-gray-400 mb-4">Price: <span class="font-bold text-green-400">NGN 14,500</span></p>
+                    <p class="text-sm text-gray-400 mb-6">Income: <span class="font-bold text-green-400">NGN 29,000 (40 Days)</span></p>
+                    <button class="w-full bg-accent hover:bg-blue-600 text-white font-semibold py-2 rounded-lg">View Details</button>
+                </div>
+                
+                <!-- Miner 4: Explore More -->
+                <div class="scroll-reveal zoom-in delay-600 bg-card-bg p-6 rounded-xl border-2 border-accent flex flex-col justify-center items-center text-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-accent mb-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 8v8"/><path d="M8 12h8"/></svg>
+                    <h4 class="text-2xl font-bold mb-4">And Many More...</h4>
+                    <p class="text-gray-400 mb-6">View our complete list of high-yield miners, up to NGN 2,000,000 capacity.</p>
+                    <a href="/miners" class="w-full bg-primary hover:bg-green-700 text-white font-semibold py-2 rounded-lg transition duration-300">
+                        View All Miners
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+
+
+    </main>
+    
+    <!-- Footer -->
+    <footer class="p-8 bg-card-bg mt-12">
+        <div class="max-w-7xl mx-auto text-center text-gray-500 text-sm">
+            <p>&copy; 2024 MinerHub. All rights reserved. | <a href="/about" class="hover:text-primary">Privacy Policy</a></p>
+            <p class="mt-2">This platform is also available as a dedicated mobile application (App) and accessible via web link.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Scroll Reveal Implementation -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Options for the Intersection Observer
+            const observerOptions = {
+                root: null, // relative to the viewport
+                rootMargin: '0px',
+                threshold: 0.2 // Trigger when 20% of the item is visible
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        // Add the 'visible' class to trigger CSS transition
+                        entry.target.classList.add('visible');
+                        // Stop observing after it becomes visible
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            // Find all elements marked for scroll reveal and apply initial classes
+            document.querySelectorAll('[class*="scroll-reveal"]').forEach(element => {
+                // Apply the initial transformation class if not already present
+                if (!element.classList.contains('slide-up') && !element.classList.contains('slide-left') && !element.classList.contains('slide-right') && !element.classList.contains('zoom-in')) {
+                     element.classList.add('slide-up'); // Default to slide-up if no specific animation is set
+                }
+                observer.observe(element);
+            });
+        });
+    </script>
+</body>
+</html>
