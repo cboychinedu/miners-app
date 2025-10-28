@@ -1472,3 +1472,515 @@
 2025-10-28 12:55:04 - INFO -  * Restarting with stat
 2025-10-28 12:55:05 - WARNING -  * Debugger is active!
 2025-10-28 12:55:05 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 12:57:08 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 12:57:08 - INFO - 127.0.0.1 - - [28/Oct/2025 12:57:08] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 12:57:13 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 12:57:13 - INFO - 127.0.0.1 - - [28/Oct/2025 12:57:13] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 13:45:49 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 13:45:49 - INFO - 127.0.0.1 - - [28/Oct/2025 13:45:49] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-10-28 13:45:49 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 13:45:49 - INFO - 127.0.0.1 - - [28/Oct/2025 13:45:49] "GET /login HTTP/1.1" 200 -
+2025-10-28 13:45:49 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 13:45:49 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 13:45:49 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 13:45:49 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 13:45:49 - INFO - 127.0.0.1 - - [28/Oct/2025 13:45:49] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 13:45:49 - INFO - 127.0.0.1 - - [28/Oct/2025 13:45:49] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 13:45:49 - INFO - 127.0.0.1 - - [28/Oct/2025 13:45:49] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 13:45:49 - INFO - 127.0.0.1 - - [28/Oct/2025 13:45:49] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 13:45:52 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 13:45:52 - INFO - 127.0.0.1 - - [28/Oct/2025 13:45:52] "POST /login HTTP/1.1" 200 -
+2025-10-28 13:45:56 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 13:45:56 - INFO - 127.0.0.1 - - [28/Oct/2025 13:45:56] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 13:46:19 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 13:46:19 - INFO - 127.0.0.1 - - [28/Oct/2025 13:46:19] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 13:46:50 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 13:46:50 - INFO - 127.0.0.1 - - [28/Oct/2025 13:46:50] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 13:47:52 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 13:47:52 - INFO - 127.0.0.1 - - [28/Oct/2025 13:47:52] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 13:47:53 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 13:47:53 - INFO - 127.0.0.1 - - [28/Oct/2025 13:47:53] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 13:47:57 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 13:47:57 - INFO - 127.0.0.1 - - [28/Oct/2025 13:47:57] "GET /login HTTP/1.1" 200 -
+2025-10-28 13:47:57 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 13:47:57 - INFO - 127.0.0.1 - - [28/Oct/2025 13:47:57] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 13:47:57 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 13:47:57 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 13:47:57 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 13:47:57 - INFO - 127.0.0.1 - - [28/Oct/2025 13:47:57] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 13:47:57 - INFO - 127.0.0.1 - - [28/Oct/2025 13:47:57] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 13:47:57 - INFO - 127.0.0.1 - - [28/Oct/2025 13:47:57] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 13:47:59 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 13:48:00 - INFO - 127.0.0.1 - - [28/Oct/2025 13:48:00] "POST /login HTTP/1.1" 200 -
+2025-10-28 13:48:04 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 13:48:04 - INFO - 127.0.0.1 - - [28/Oct/2025 13:48:04] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 13:49:32 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 13:49:32 - INFO -  * Restarting with stat
+2025-10-28 13:49:32 - WARNING -  * Debugger is active!
+2025-10-28 13:49:32 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 13:49:49 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 13:49:49 - INFO - 127.0.0.1 - - [28/Oct/2025 13:49:49] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 13:49:52 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 13:49:53 - INFO - 127.0.0.1 - - [28/Oct/2025 13:49:53] "POST /login HTTP/1.1" 200 -
+2025-10-28 13:49:57 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 13:49:57 - INFO - 127.0.0.1 - - [28/Oct/2025 13:49:57] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 13:50:59 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 13:50:59 - INFO -  * Restarting with stat
+2025-10-28 13:50:59 - WARNING -  * Debugger is active!
+2025-10-28 13:50:59 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 13:51:02 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 13:51:02 - INFO - 127.0.0.1 - - [28/Oct/2025 13:51:02] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 13:52:04 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 13:52:04 - INFO - 127.0.0.1 - - [28/Oct/2025 13:52:04] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 13:53:16 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 13:53:16 - INFO - 127.0.0.1 - - [28/Oct/2025 13:53:16] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 13:54:34 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 13:54:34 - INFO -  * Restarting with stat
+2025-10-28 13:54:34 - WARNING -  * Debugger is active!
+2025-10-28 13:54:34 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 13:55:22 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 13:55:22 - INFO - 127.0.0.1 - - [28/Oct/2025 13:55:22] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 13:58:21 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Test/createDb.py', reloading
+2025-10-28 13:58:21 - INFO -  * Restarting with stat
+2025-10-28 13:58:21 - WARNING -  * Debugger is active!
+2025-10-28 13:58:21 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:01:35 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:01:36 - INFO -  * Restarting with stat
+2025-10-28 14:01:36 - WARNING -  * Debugger is active!
+2025-10-28 14:01:36 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:06:44 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 14:06:44 - INFO -  * Restarting with stat
+2025-10-28 14:06:44 - WARNING -  * Debugger is active!
+2025-10-28 14:06:44 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:06:58 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 14:06:58 - INFO -  * Restarting with stat
+2025-10-28 14:06:58 - WARNING -  * Debugger is active!
+2025-10-28 14:06:58 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:07:58 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:07:58 - INFO -  * Restarting with stat
+2025-10-28 14:07:58 - WARNING -  * Debugger is active!
+2025-10-28 14:07:58 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:08:22 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:08:22 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:22] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:08:27 - INFO - Request: GET /logout - IP: 127.0.0.1
+2025-10-28 14:08:27 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:27] "[33mGET /logout HTTP/1.1[0m" 404 -
+2025-10-28 14:08:38 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:08:38 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:38] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:08:38 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:08:38 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:08:38 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:08:38 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:08:38 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:38] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:08:38 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:38] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:08:38 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:38] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:08:38 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:38] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:08:41 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 14:08:41 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:41] "GET /signup HTTP/1.1" 200 -
+2025-10-28 14:08:41 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:08:41 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:08:41 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:08:41 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:41] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:08:41 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 14:08:41 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:41] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:08:41 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:41] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:08:41 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:41] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2025-10-28 14:08:47 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 14:08:47 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:47] "POST /signup HTTP/1.1" 200 -
+2025-10-28 14:08:51 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:08:51 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:51] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:08:51 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:08:51 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:51] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:08:51 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:08:51 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:08:51 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:08:51 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:51] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:08:51 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:51] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:08:51 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:51] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:08:53 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 14:08:53 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:53] "POST /login HTTP/1.1" 200 -
+2025-10-28 14:08:58 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:08:58 - INFO - 127.0.0.1 - - [28/Oct/2025 14:08:58] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:10:00 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:10:00 - INFO -  * Restarting with stat
+2025-10-28 14:10:00 - WARNING -  * Debugger is active!
+2025-10-28 14:10:00 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:10:35 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:10:35 - INFO - 127.0.0.1 - - [28/Oct/2025 14:10:35] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:10:50 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:10:50 - INFO -  * Restarting with stat
+2025-10-28 14:10:50 - WARNING -  * Debugger is active!
+2025-10-28 14:10:50 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:10:53 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:10:53 - INFO - 127.0.0.1 - - [28/Oct/2025 14:10:53] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:11:14 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:11:14 - INFO -  * Restarting with stat
+2025-10-28 14:11:14 - WARNING -  * Debugger is active!
+2025-10-28 14:11:14 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:11:18 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:11:18 - INFO - 127.0.0.1 - - [28/Oct/2025 14:11:18] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:11:39 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:11:39 - INFO - 127.0.0.1 - - [28/Oct/2025 14:11:39] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:18:22 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:18:22 - INFO -  * Restarting with stat
+2025-10-28 14:18:23 - WARNING -  * Debugger is active!
+2025-10-28 14:18:23 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:18:42 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:18:42 - INFO -  * Restarting with stat
+2025-10-28 14:18:42 - WARNING -  * Debugger is active!
+2025-10-28 14:18:42 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:19:18 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:19:18 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:18] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:19:23 - INFO - Request: GET /dashboard/logout - IP: 127.0.0.1
+2025-10-28 14:19:23 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:23] "[32mGET /dashboard/logout HTTP/1.1[0m" 302 -
+2025-10-28 14:19:23 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:19:23 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:23] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:19:23 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:19:23 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:19:23 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:23] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:19:23 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:19:23 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:23] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:19:23 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:19:23 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:23] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:19:23 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:23] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:19:26 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:19:26 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:26] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:19:26 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:19:26 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:19:26 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:19:26 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:26] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:19:26 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:19:26 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:26] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:19:26 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:26] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:19:26 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:26] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:19:30 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 14:19:30 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:30] "POST /login HTTP/1.1" 200 -
+2025-10-28 14:19:34 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:19:34 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:34] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:19:44 - INFO - Request: GET /dashboard/logout - IP: 127.0.0.1
+2025-10-28 14:19:44 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:44] "[32mGET /dashboard/logout HTTP/1.1[0m" 302 -
+2025-10-28 14:19:44 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:19:44 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:44] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:19:44 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:19:44 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:44] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:19:44 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:19:44 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:19:44 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:19:44 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:44] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:19:44 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:44] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:19:44 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:44] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:19:51 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:19:51 - INFO - 127.0.0.1 - - [28/Oct/2025 14:19:51] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:20:41 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:20:42 - INFO -  * Restarting with stat
+2025-10-28 14:20:42 - WARNING -  * Debugger is active!
+2025-10-28 14:20:42 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:20:56 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:20:56 - INFO -  * Restarting with stat
+2025-10-28 14:20:56 - WARNING -  * Debugger is active!
+2025-10-28 14:20:56 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:20:59 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:20:59 - INFO - 127.0.0.1 - - [28/Oct/2025 14:20:59] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:21:00 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:21:00 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:00] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:21:02 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:21:02 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:02] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:21:04 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:21:04 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:04] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:21:04 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:21:04 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:04] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:21:07 - INFO - Request: GET /dashboard/logout - IP: 127.0.0.1
+2025-10-28 14:21:07 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:07] "[32mGET /dashboard/logout HTTP/1.1[0m" 302 -
+2025-10-28 14:21:07 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:21:07 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:07] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:21:07 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:21:07 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:21:07 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:21:07 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:07] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:21:07 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:21:07 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:07] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:21:07 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:07] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:21:07 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:07] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:21:11 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:21:11 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:11] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:21:11 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:21:11 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:21:11 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:11] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:21:11 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:21:11 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:11] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:21:11 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:21:11 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:11] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:21:11 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:11] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:21:19 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:21:19 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:19] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-10-28 14:21:19 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:21:19 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:19] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:21:19 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:21:19 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:21:19 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:21:19 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:21:19 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:19] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:21:19 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:19] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:21:19 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:19] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:21:19 - INFO - 127.0.0.1 - - [28/Oct/2025 14:21:19] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:08 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:22:08 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:08] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:22:08 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:22:08 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:22:08 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:22:08 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:08] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:08 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:22:08 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:08] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:22:08 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:08] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:08 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:08] "GET /static/js/login.js HTTP/1.1" 200 -
+2025-10-28 14:22:10 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 14:22:10 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:10] "POST /login HTTP/1.1" 200 -
+2025-10-28 14:22:12 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:22:12 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:12] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:22:32 - INFO - Request: GET /dashboard/logout - IP: 127.0.0.1
+2025-10-28 14:22:32 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:32] "[32mGET /dashboard/logout HTTP/1.1[0m" 302 -
+2025-10-28 14:22:32 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:22:32 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:32] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:22:32 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:22:32 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:32] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:32 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:22:32 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:22:32 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:22:32 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:32] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:22:32 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:32] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:32 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:32] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:36 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:22:36 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:36] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2025-10-28 14:22:36 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:22:36 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:36] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:22:37 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:22:37 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:22:37 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:37] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:22:37 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:37] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:37 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:22:37 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:22:37 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:37] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:37 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:37] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:40 - INFO - Request: GET / - IP: 127.0.0.1
+2025-10-28 14:22:40 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:40] "GET / HTTP/1.1" 200 -
+2025-10-28 14:22:40 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:22:40 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:22:40 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:22:40 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:40] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:40 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:40] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:22:40 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:40] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:46 - INFO - Request: GET /miners - IP: 127.0.0.1
+2025-10-28 14:22:46 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:46] "GET /miners HTTP/1.1" 200 -
+2025-10-28 14:22:46 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:22:46 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:22:46 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:22:46 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:46] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:46 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:46] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:22:46 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:46] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:48 - INFO - Request: GET /how-it-works - IP: 127.0.0.1
+2025-10-28 14:22:48 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:48] "GET /how-it-works HTTP/1.1" 200 -
+2025-10-28 14:22:48 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:22:48 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:22:48 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:22:48 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:48] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:48 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:48] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:22:48 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:48] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:52 - INFO - Request: GET /about - IP: 127.0.0.1
+2025-10-28 14:22:52 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:52] "GET /about HTTP/1.1" 200 -
+2025-10-28 14:22:52 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:22:52 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:22:52 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:22:52 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:52] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:52 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:52] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:22:52 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:52] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:53 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:22:53 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:53] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:22:53 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:22:53 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:53] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:53 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:22:53 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:22:53 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:22:53 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:53] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:22:53 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:53] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:53 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:53] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:55 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 14:22:55 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:55] "GET /signup HTTP/1.1" 200 -
+2025-10-28 14:22:55 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:22:55 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:22:55 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:22:55 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 14:22:55 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:55] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:22:55 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:55] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:55 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:55] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:55 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:55] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:57 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:22:57 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:57] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:22:57 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:22:57 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:22:57 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:22:57 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:57] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:57 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:22:57 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:57] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:22:57 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:57] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:57 - INFO - 127.0.0.1 - - [28/Oct/2025 14:22:57] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:22:59 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 14:23:00 - INFO - 127.0.0.1 - - [28/Oct/2025 14:23:00] "POST /login HTTP/1.1" 200 -
+2025-10-28 14:23:02 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:23:02 - INFO - 127.0.0.1 - - [28/Oct/2025 14:23:02] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:26:01 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:26:01 - INFO - 127.0.0.1 - - [28/Oct/2025 14:26:01] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:31:17 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:31:17 - INFO -  * Restarting with stat
+2025-10-28 14:31:18 - WARNING -  * Debugger is active!
+2025-10-28 14:31:18 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:31:22 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:31:22 - INFO - 127.0.0.1 - - [28/Oct/2025 14:31:22] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:33:01 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:33:01 - INFO -  * Restarting with stat
+2025-10-28 14:33:01 - WARNING -  * Debugger is active!
+2025-10-28 14:33:01 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:33:59 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:33:59 - INFO -  * Restarting with stat
+2025-10-28 14:33:59 - WARNING -  * Debugger is active!
+2025-10-28 14:33:59 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:35:19 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:35:19 - INFO -  * Restarting with stat
+2025-10-28 14:35:19 - WARNING -  * Debugger is active!
+2025-10-28 14:35:19 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:35:59 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:35:59 - INFO -  * Restarting with stat
+2025-10-28 14:35:59 - WARNING -  * Debugger is active!
+2025-10-28 14:35:59 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:36:01 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:36:01 - INFO - 127.0.0.1 - - [28/Oct/2025 14:36:01] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:36:52 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:36:52 - INFO -  * Restarting with stat
+2025-10-28 14:36:52 - WARNING -  * Debugger is active!
+2025-10-28 14:36:52 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:39:44 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Test/createDb.py', reloading
+2025-10-28 14:39:44 - INFO -  * Restarting with stat
+2025-10-28 14:39:44 - WARNING -  * Debugger is active!
+2025-10-28 14:39:44 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:40:28 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Test/createDb.py', reloading
+2025-10-28 14:40:28 - INFO -  * Restarting with stat
+2025-10-28 14:40:28 - WARNING -  * Debugger is active!
+2025-10-28 14:40:28 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:40:42 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Test/createDb.py', reloading
+2025-10-28 14:40:42 - INFO -  * Restarting with stat
+2025-10-28 14:40:42 - WARNING -  * Debugger is active!
+2025-10-28 14:40:42 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:41:26 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Test/createDb.py', reloading
+2025-10-28 14:41:26 - INFO -  * Restarting with stat
+2025-10-28 14:41:26 - WARNING -  * Debugger is active!
+2025-10-28 14:41:26 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:41:46 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Test/createDb.py', reloading
+2025-10-28 14:41:47 - INFO -  * Restarting with stat
+2025-10-28 14:41:47 - WARNING -  * Debugger is active!
+2025-10-28 14:41:47 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:45:20 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/app.py', reloading
+2025-10-28 14:45:20 - INFO -  * Restarting with stat
+2025-10-28 14:45:21 - WARNING -  * Debugger is active!
+2025-10-28 14:45:21 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:52:08 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 14:52:08 - INFO -  * Restarting with stat
+2025-10-28 14:52:09 - WARNING -  * Debugger is active!
+2025-10-28 14:52:09 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:53:06 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 14:53:06 - INFO -  * Restarting with stat
+2025-10-28 14:53:06 - WARNING -  * Debugger is active!
+2025-10-28 14:53:06 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:53:27 - INFO - Request: GET /logout - IP: 127.0.0.1
+2025-10-28 14:53:27 - INFO - 127.0.0.1 - - [28/Oct/2025 14:53:27] "[33mGET /logout HTTP/1.1[0m" 404 -
+2025-10-28 14:53:37 - INFO - Request: GET /logout - IP: 127.0.0.1
+2025-10-28 14:53:37 - INFO - 127.0.0.1 - - [28/Oct/2025 14:53:37] "[33mGET /logout HTTP/1.1[0m" 404 -
+2025-10-28 14:53:59 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3001
+2025-10-28 14:53:59 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-28 14:53:59 - INFO -  * Restarting with stat
+2025-10-28 14:53:59 - WARNING -  * Debugger is active!
+2025-10-28 14:53:59 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 14:54:11 - INFO - Request: GET / - IP: 127.0.0.1
+2025-10-28 14:54:11 - INFO - 127.0.0.1 - - [28/Oct/2025 14:54:11] "GET / HTTP/1.1" 200 -
+2025-10-28 14:54:11 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:54:11 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:54:11 - INFO - 127.0.0.1 - - [28/Oct/2025 14:54:11] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:54:11 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:54:11 - INFO - 127.0.0.1 - - [28/Oct/2025 14:54:11] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:54:11 - INFO - 127.0.0.1 - - [28/Oct/2025 14:54:11] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:54:14 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:54:14 - INFO - 127.0.0.1 - - [28/Oct/2025 14:54:14] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:54:14 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:54:14 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:54:14 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:54:14 - INFO - 127.0.0.1 - - [28/Oct/2025 14:54:14] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:54:14 - INFO - 127.0.0.1 - - [28/Oct/2025 14:54:14] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:54:14 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:54:14 - INFO - 127.0.0.1 - - [28/Oct/2025 14:54:14] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:54:14 - INFO - 127.0.0.1 - - [28/Oct/2025 14:54:14] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:54:16 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 14:54:16 - INFO - 127.0.0.1 - - [28/Oct/2025 14:54:16] "POST /login HTTP/1.1" 200 -
+2025-10-28 14:54:18 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:54:18 - INFO - 127.0.0.1 - - [28/Oct/2025 14:54:18] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:54:22 - INFO - Request: GET /logout - IP: 127.0.0.1
+2025-10-28 14:54:22 - INFO - 127.0.0.1 - - [28/Oct/2025 14:54:22] "[33mGET /logout HTTP/1.1[0m" 404 -
+2025-10-28 14:55:15 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:55:15 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:15] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:55:16 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:55:16 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:16] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:55:19 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:55:19 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:19] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:55:23 - INFO - Request: GET /dashboard/logout - IP: 127.0.0.1
+2025-10-28 14:55:23 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:23] "[32mGET /dashboard/logout HTTP/1.1[0m" 302 -
+2025-10-28 14:55:23 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:55:23 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:23] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:55:23 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:55:23 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:55:23 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:23] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:55:23 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:55:23 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:55:23 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:23] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:55:23 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:23] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:55:23 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:23] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:55:31 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 14:55:31 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:31] "POST /login HTTP/1.1" 200 -
+2025-10-28 14:55:33 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:55:33 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:33] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:55:39 - INFO - Request: GET /dashboard/logout - IP: 127.0.0.1
+2025-10-28 14:55:39 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:39] "[32mGET /dashboard/logout HTTP/1.1[0m" 302 -
+2025-10-28 14:55:39 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:55:39 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:39] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:55:39 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:55:39 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:39] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:55:39 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:55:39 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:55:39 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:55:39 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:39] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:55:39 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:39] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:55:39 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:39] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:55:42 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 14:55:42 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:42] "GET /signup HTTP/1.1" 200 -
+2025-10-28 14:55:42 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:55:42 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:55:42 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:55:42 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 14:55:42 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:42] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:55:42 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:42] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:55:42 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:42] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:55:42 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:42] "GET /static/js/signup.js HTTP/1.1" 200 -
+2025-10-28 14:55:44 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 14:55:44 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:44] "GET /login HTTP/1.1" 200 -
+2025-10-28 14:55:44 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 14:55:44 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:44] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 14:55:44 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 14:55:44 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 14:55:44 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 14:55:44 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:44] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 14:55:44 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:44] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 14:55:44 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:44] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 14:55:45 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 14:55:46 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:46] "POST /login HTTP/1.1" 200 -
+2025-10-28 14:55:48 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 14:55:48 - INFO - 127.0.0.1 - - [28/Oct/2025 14:55:48] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 14:58:07 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 14:58:07 - INFO -  * Restarting with stat
+2025-10-28 14:58:07 - WARNING -  * Debugger is active!
+2025-10-28 14:58:07 - INFO -  * Debugger PIN: 727-636-671

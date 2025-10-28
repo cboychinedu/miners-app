@@ -82,7 +82,7 @@ submitBtn.addEventListener("click", (event) => {
                     setTimeout(() => {
                         // Redirct the user after waiting for 4seconds  
                         window.location.href = "/dashboard"; 
-                    }, 4000)
+                    }, 2000)
                 }
 
                 // Else if the status was not success execute this block 

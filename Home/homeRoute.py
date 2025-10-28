@@ -164,6 +164,7 @@ def SignUp():
         userData = request.get_json(); 
 
         # Getting the user password, and email address 
+        fullname = userData["fullname"]
         password = userData["password"]
         email = userData['email']
 
@@ -193,6 +194,7 @@ def SignUp():
 
                 # Saving the user details into the database 
                 data = db.saveUser(
+                    fullname=fullname,
                     email=email, 
                     password=passwordHash
                 )

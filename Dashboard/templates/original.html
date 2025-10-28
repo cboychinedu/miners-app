@@ -38,7 +38,7 @@
             </h1>
             <div class="flex items-center space-x-4">
                 <!-- User Profile Placeholder -->
-                <div class="hidden sm:block text-sm text-gray-300">Welcome, {{ user.name.split(' ')[0] }}</div>
+                <div class="hidden sm:block text-sm text-gray-300">Welcome </div>
                 <a href="/dashboard/logout" class="bg-red-600 hover:bg-red-700 text-white font-semibold px-4 py-2 text-sm rounded-lg shadow-md transition duration-300">
                     Logout
                 </a>
@@ -52,7 +52,7 @@
         <!-- Welcome Section -->
         <div class="mb-8 p-6 bg-card-bg rounded-xl shadow-xl border-l-4 border-primary">
             <h2 class="text-3xl font-bold mb-1">
-                Hello, <span class="text-primary">{{ user.name }}</span>!
+                Hello, <span class="text-primary"> {{ userEmail }} </span>!
             </h2>
             <p class="text-gray-400">Here's a snapshot of your mining performance and investments.</p>
         </div>
@@ -64,7 +64,7 @@
             <div class="bg-card-bg p-6 rounded-xl shadow-lg border-b-4 border-accent">
                 <p class="text-sm font-medium text-gray-400 mb-2">Wallet Balance (NGN)</p>
                 <p class="text-4xl font-extrabold text-accent mb-4">
-                    {{ user.balance }}
+                   Balance: NGN {{ userBalance }}
                 </p>
                 <div class="flex space-x-3">
                     <button class="flex-1 bg-primary hover:bg-green-700 text-white text-sm py-2 rounded-lg transition duration-300">
@@ -86,7 +86,7 @@
             <div class="bg-card-bg p-6 rounded-xl shadow-lg border-b-4 border-primary">
                 <p class="text-sm font-medium text-gray-400 mb-2">Total Invested (NGN)</p>
                 <p class="text-4xl font-extrabold text-primary">
-                    {{ user.totalInvested }}
+                    0.00
                 </p>
                 <p class="text-xs text-gray-500 mt-2">Active and completed miner cycles.</p>
             </div>
@@ -95,7 +95,7 @@
             <div class="bg-card-bg p-6 rounded-xl shadow-lg border-b-4 border-accent">
                 <p class="text-sm font-medium text-gray-400 mb-2">Total Earnings (NGN)</p>
                 <p class="text-4xl font-extrabold text-accent">
-                    {{ user.totalEarnings }}
+                    0.00
                 </p>
                 <p class="text-xs text-gray-500 mt-2">Profits realized from completed cycles.</p>
             </div>
@@ -108,7 +108,7 @@
             <div class="lg:col-span-2 bg-card-bg p-6 rounded-xl shadow-xl border-t-4 border-primary">
                 <h3 class="text-xl font-semibold mb-6 flex justify-between items-center">
                     Active Miner Status
-                    <span class="text-xs font-bold px-3 py-1 bg-primary/20 text-primary rounded-full">{{ user.activeMiner.status }}</span>
+                    <span class="text-xs font-bold px-3 py-1 bg-primary/20 text-primary rounded-full">""</span>
                 </h3>
 
                 <div class="md:flex items-center space-y-4 md:space-y-0 md:space-x-6">
@@ -118,20 +118,9 @@
                     </div>
                     
                     <div>
-                        <p class="text-2xl font-bold mb-1 text-gray-50">{{ user.activeMiner.name }}</p>
+                        <p class="text-2xl font-bold mb-1 text-gray-50"> "" </p>
                         <p class="text-sm text-gray-400 mb-4">
-                            Investment Cycle: {{ user.activeMiner.cycleDays }} Days
-                        </p>
-                        
-                        <!-- Progress Bar (Jinja logic for percentage) -->
-                        {% set days_elapsed = user.activeMiner.cycleDays - user.activeMiner.daysRemaining %}
-                        {% set progress_percentage = (days_elapsed / user.activeMiner.cycleDays) * 100 %}
-                        
-                        <div class="w-full bg-gray-700 rounded-full h-2.5 mb-2">
-                            <div class="bg-primary h-2.5 rounded-full" style="width: {{ progress_percentage|round(0, 'floor') }}%"></div>
-                        </div>
-                        <p class="text-xs text-gray-500">
-                            {{ days_elapsed }} of {{ user.activeMiner.cycleDays }} days complete ({{ progress_percentage|round(1, 'floor') }}%)
+                            Investment Cycle: "" Days
                         </p>
                     </div>
                 </div>
@@ -139,11 +128,11 @@
                 <div class="grid grid-cols-2 mt-6 pt-4 border-t border-gray-700">
                     <div>
                         <p class="text-sm text-gray-400">Days Remaining</p>
-                        <p class="text-2xl font-bold text-accent">{{ user.activeMiner.daysRemaining }}</p>
+                        <p class="text-2xl font-bold text-accent"> "" </p>
                     </div>
                     <div>
                         <p class="text-sm text-gray-400">Projected Return</p>
-                        <p class="text-2xl font-bold text-primary">NGN {{ user.activeMiner.projectedReturn }}</p>
+                        <p class="text-2xl font-bold text-primary">NGN "" </p>
                     </div>
                 </div>
             </div>

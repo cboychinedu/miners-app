@@ -2,11 +2,18 @@
 console.log("This script was written by Mbonu Chinedum"); 
 
 // Getting the dom elements 
+const fullname = document.querySelector("#fullname"); 
 const email = document.getElementById("email"); 
 const password = document.getElementById("password"); 
 const confirmPassword = document.getElementById("confirmPassword"); 
 const submitBtn = document.querySelector("#submitBtn"); 
 const alertBox = document.querySelector("#alertBox");
+
+// Adding event listener for the fullname value 
+fullname.addEventListener("click", (event) => {
+    alertBox.innerHTML = ""; 
+    fullname.style.border = ""; 
+})
 
 // Adding event listener for the email address 
 email.addEventListener("click", (event) => {
@@ -31,8 +38,15 @@ submitBtn.addEventListener("click", (event) => {
     // Preventing default submission 
     event.preventDefault(); 
 
+    // Checking the fullname form 
+    if (!fullname.value) {
+        // Setting the alert for the fullname 
+        alertBox.innerHTML = "Fullname is required!"; 
+        fullname.style.border = "1px solid red"; 
+    }
+
     // Checking the email address 
-    if (!email.value) {
+    else if (!email.value) {
         // Setting the alert email address. 
         alertBox.innerHTML = "Email address is required!"; 
         email.style.border = "1px solid red"; 
@@ -76,6 +90,7 @@ submitBtn.addEventListener("click", (event) => {
     else {
         // Getting the user data 
         const userData = JSON.stringify({
+            fullname: fullname.value, 
             email: email.value, 
             password: password.value 
         })

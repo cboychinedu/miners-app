@@ -43,7 +43,7 @@ class DatabaseManager:
 
     # Get the user by email only 
     def verifyUserByEmail(self, email): 
-        # Verfiy if a user exists inside the database 
+        # Connecting to the database 
         conn = self.connect()
         cursor = conn.cursor() 
 
@@ -57,17 +57,34 @@ class DatabaseManager:
         # Return the result 
         return result
     
+    # Get the user balance
+    def getUserBalance(self, email):
+        # Connecting to the database 
+        conn = self.connect()
+        cursor = conn.cursor()
+
+        # Setting the sql query 
+        query = "SELECT balance FROM users WHERE email = ?"
+        cursor.execute(query, (email, ))
+
+        # Fetch one result for the query 
+        result = cursor.fetchall() 
+
+        # Return the result 
+        return result 
+
+    
     # Save a user to the database 
-    def saveUser(self, email, password): 
+    def saveUser(self, fullname, email, password): 
         # Connect to the database 
         conn = self.connect() 
         cursor = conn.cursor() 
 
         # Getting the user data 
-        userData = (email, password)
+        userData = (fullname, email, password)
 
         # SQL query to save the users 
-        query = "INSERT INTO users (email, password) VALUES (?, ?)"
+        query = "INSERT INTO users (fullname, email, password) VALUES (?, ?, ?)"
         cursor.execute(query, userData)
 
         # Commit the changes 

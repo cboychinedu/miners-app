@@ -99,4 +99,4 @@ app.register_blueprint(dashboard, url_prefix="/dashboard")
 
 # Running the flask server 
 if __name__ == "__main__": 
-    app.run(port=3001, host="localhost", debug=True)
+    app.run(port=os.getenv("PORT"), host=os.getenv("HOST"), debug=True)
