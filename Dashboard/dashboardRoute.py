@@ -19,31 +19,46 @@ dashboard = Blueprint('dashboard', __name__,
 # Getting the secret key 
 secretKey = os.getenv("SECRET_KEY")
 
-# @dashboard.route('/dashboard')
-# def HomePage():
-#     """
-#     Renders the user dashboard page, providing mock user data to the template.
-    
-#     This data structure is crucial as it matches the Jinja variables
-#     used in the dashboard.html file.
-#     """
-#     # Mock data for the dashboard
-#     user_data = {
-#         "name": "Jane Doe",
-#         "balance": "89,500",
-#         "total_invested": "50,000",
-#         "total_earnings": "39,500",
-#         "active_miner": {
-#             "name": "PRO II",
-#             "cycle_days": 30,
-#             "days_remaining": 12,
-#             "projected_return": "17,000",
-#             "status": "Mining"
-#         }
-#     }
+transactionData = {
+    'firstname': 'John Doe',
+    'email': 'john.doe@example.com',
+    'balance': 'NGN 150,000.00',
+    'totalInvested': 'NGN 250,000.00',
+    'totalEarnings': 'NGN 50,000.00',
+    'user': {
+        'activeMiner': {
+            'status': 'ACTIVE',
+            'fullname': 'Miner PRO III',
+            'cycleDays': 30,
+            'daysRemaining': 8,
+            'projectedReturn': '60,000.00'
+        }
+    },
+    'transactions': [
+        {'date': '2025-10-27', 'type': 'Deposit', 'amount': 'NGN 100,000.00', 'status': 'Completed', 'details': 'Bank Transfer'},
+        {'date': '2025-10-25', 'type': 'Investment', 'amount': 'NGN 50,000.00', 'status': 'Completed', 'details': 'Miner Starter'},
+        {'date': '2025-10-20', 'type': 'Earning', 'amount': 'NGN 5,000.00', 'status': 'Completed', 'details': 'Cycle Payout'},
+        {'date': '2025-10-15', 'type': 'Withdrawal', 'amount': 'NGN 20,000.00', 'status': 'Pending', 'details': 'To Personal Account'},
+    ]
+}
 
-#     #
-#     return render_template('dashboard.html', user=user_data)
+# Creating the transaction route 
+@dashboard.route('/transactions', methods=["GET", "POST"])
+def TransactionPage(): 
+    # Getting the user's token 
+    token = request.cookies.get("xAuthToken")
+
+    # if the token is not present, execute the block of 
+    # code below 
+    if not token: 
+        # Redirect the user to the login page 
+        return redirect(url_for('home.LoginPage'))
+    
+    # Else if the token is present 
+    # Execute the block of code below 
+    else: 
+        # Render the transactions page 
+        return render_template("transactionsPage.html", **transactionData)
 
 # Creating the dashbaord home page 
 @dashboard.route('/', methods=['GET', 'POST'])
@@ -69,6 +84,7 @@ def HomePage():
 
     # if the token is not present, redirect the user to the home page 
     if not token: 
+        # Redirect the user to the login page 
         return redirect(url_for('home.LoginPage'))
     
     # else if the token was correct, decode the token and save 
@@ -93,7 +109,6 @@ def HomePage():
 
             # Get the miners detal 
             minersDetail = db.getMinersData(userEmail) 
-            print(minersDetail)
 
             # Rendering the html template file 
             return render_template('dashboardHome.html', 
@@ -116,14 +131,14 @@ def HomePage():
             return redirect(url_for('home.LoginPage'))
         
         # On error generated 
-        # except Exception as e: 
-        #     # Any unexpected error, log the error and 
-        #     # Send it back to the user 
-        #     return jsonify({
-        #         "message": str(e), 
-        #         "status": "error", 
-        #         "statusCode": 500
-        #     })
+        except Exception as e: 
+            # Any unexpected error, log the error and 
+            # Send it back to the user 
+            return jsonify({
+                "message": str(e), 
+                "status": "error", 
+                "statusCode": 500
+            })
         
 
 @dashboard.route('/logout', methods=['POST', 'GET'])
@@ -146,3 +161,54 @@ def LogoutPage():
 
     # Return the response 
     return response
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# @dashboard.route('/dashboard')
+# def HomePage():
+#     """
+#     Renders the user dashboard page, providing mock user data to the template.
+    
+#     This data structure is crucial as it matches the Jinja variables
+#     used in the dashboard.html file.
+#     """
+#     # Mock data for the dashboard
+#     user_data = {
+#         "name": "Jane Doe",
+#         "balance": "89,500",
+#         "total_invested": "50,000",
+#         "total_earnings": "39,500",
+#         "active_miner": {
+#             "name": "PRO II",
+#             "cycle_days": 30,
+#             "days_remaining": 12,
+#             "projected_return": "17,000",
+#             "status": "Mining"
+#         }
+#     }
+
+#     #
+#     return render_template('dashboard.html', user=user_data)
