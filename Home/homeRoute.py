@@ -6,7 +6,7 @@ import jwt
 import bcrypt
 import datetime
 from Database.database import DatabaseManager
-from flask import request, Blueprint, render_template, jsonify, make_response
+from flask import request, Blueprint, render_template, jsonify, make_response, redirect, url_for
 
 # Getting the secret key 
 secretKey = os.getenv("SECRET_KEY")
@@ -118,10 +118,10 @@ def LoginPage():
                         key="xAuthToken", 
                         value=encodedJwt,
                         httponly=True, 
-                        secure=True, 
+                        secure=False, 
                         domain=domainName,
                         samesite="Strict", 
-                        max_age=1800
+                        max_age=86400
                     )
 
                     # Return the response header 
@@ -165,9 +165,21 @@ def LoginPage():
             # Sending back the error message 
             return jsonify(errorMessage) 
 
+    # Else if the request was a GET request 
     else: 
-        # Render the login page 
-        return render_template('login.html')
+        # Getting the user's token 
+        token = request.cookies.get('xAuthToken')
+
+        # If the token is present redirect the user to the 
+        # Dashboard page 
+        if (token): 
+            # Redirect the user to the dashboard page 
+            return redirect(url_for('dashboard.HomePage'))
+        
+        # Else if the token is not present, load the login page 
+        else:
+            # Render the login page 
+            return render_template('login.html')
     
 
 # Creating the sign up route 
@@ -254,5 +266,16 @@ def SignUp():
 
     # Else 
     else: 
-        # Render the signup page 
-        return render_template('signup.html')
+        # Getting the user's token 
+        token = request.cookies.get("xAuthToken")
+
+        # if the token is present redirect the user to the 
+        # Dashboard page 
+        if (token): 
+            # Redirect the user to the dashboard page 
+            return redirect(url_for('dashboard.HomePage'))
+        
+        # Else if the token is not present, load the signup page 
+        else: 
+            # Render the signup page 
+            return render_template('signup.html')
