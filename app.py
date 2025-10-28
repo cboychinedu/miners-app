@@ -12,6 +12,7 @@ load_dotenv();
 
 # Importing the necesary routes 
 from Home.homeRoute import home 
+from Dashboard.dashboardRoute import dashboard
 
 # Creating the flask application 
 app = Flask(__name__, static_folder=None, template_folder=None) 
@@ -94,6 +95,7 @@ def override_url_for():
 
 # Register the views using app.register method 
 app.register_blueprint(home, url_prefix="/")
+app.register_blueprint(dashboard, url_prefix="/dashboard")
 
 # Running the flask server 
 if __name__ == "__main__": 

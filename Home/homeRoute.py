@@ -1,11 +1,12 @@
 #!/usr/bin/env python3 
 
 # Importing the necssary modules 
-import os 
+import os
+import jwt
 import bcrypt
-from datetime import datetime
+import datetime
 from Database.database import DatabaseManager
-from flask import request, Blueprint, render_template, jsonify
+from flask import request, Blueprint, render_template, jsonify, make_response
 
 # Getting the secret key 
 secretKey = os.getenv("SECRET_KEY")
@@ -66,8 +67,88 @@ def minersPage():
 @home.route("/login", methods=["POST", "GET"])
 def LoginPage(): 
     # IF the request is a post request 
-    if request.method == "POST": 
-        pass 
+    if request.method == "POST":
+        # Getting the user's data 
+        userData = request.get_json() 
+        email = userData["email"]
+        password = userData["password"]
+
+        # using try except block to get the users 
+        try: 
+            # Execute the block of code below 
+            # Getting the user details 
+            data = db.verifyUserByEmail(email=email)
+
+            # Getting the user's data 
+            passwordHash = data[0]
+            email = data[1]
+
+            # Verifying the password hash 
+            password = password.encode('utf-8')
+            condition = bcrypt.checkpw(password, passwordHash)
+
+            # Checking the condition if the password verification 
+            # return a true value 
+            if (condition):
+                # Generate a token for the user and send it back to 
+                # the client 
+                payload = {
+                    "email": email, 
+                    "exp": datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(minutes=30)
+                }
+
+                # Encoding the payload as a jwt token 
+                encodedJwt = jwt.encode(
+                    payload, 
+                    secretKey,
+                    algorithm="HS256"
+                )
+
+                # Prepare the response and set the cookie 
+                responseData = make_response(jsonify({
+                    "message": "Login successful!", 
+                    "status": "success", 
+                    "email": email 
+                }))
+
+                # Store JWT in HTTP-only cookie 
+                responseData.set_cookie(
+                    key="xAuthToken", 
+                    value=encodedJwt,
+                    httponly=True, 
+                    secure=True, 
+                    samesite="Strict", 
+                    max_age=1800
+                )
+
+                # Return the response header 
+                return responseData
+
+            else: 
+                # Generate an error message saying the passwords are 
+                # Not correct 
+                errorMessage = { 
+                    "message": "Invalid Email or Password!", 
+                    "status": "error", 
+                    "statusCode": 401
+                }
+
+                # Sending the error message
+                return jsonify(errorMessage); 
+
+        # Unless exception as error, execute the block 
+        # of the code below 
+        except Exception as e:
+            # Convert the object into a json object and 
+            # Send it to the clinet 
+            errorMessage = {
+                "message": str(e), 
+                "status": "error", 
+                "statusCode": 404
+            }
+
+            # Sending back the error message 
+            return jsonify(errorMessage) 
 
     else: 
         # Render the login page 

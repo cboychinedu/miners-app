@@ -1,12 +1,11 @@
 // Greetings message 
-console.log("This script was written by Mbonu Chinedum"); 
+console.log("This script was writted by Mbonu Chinedum"); 
 
 // Getting the dom elements 
-const email = document.getElementById("email"); 
-const password = document.getElementById("password"); 
-const confirmPassword = document.getElementById("confirmPassword"); 
+const email = document.querySelector("#email"); 
+const password = document.querySelector("#password"); 
 const submitBtn = document.querySelector("#submitBtn"); 
-const alertBox = document.querySelector("#alertBox");
+const alertBox = document.querySelector("#alertBox"); 
 
 // Adding event listener for the email address 
 email.addEventListener("click", (event) => {
@@ -18,13 +17,7 @@ email.addEventListener("click", (event) => {
 password.addEventListener("click", (event) => {
     alertBox.innerHTML = ""; 
     password.style.border = ""; 
-})
-
-// Adding event listener for the confirm password 
-confirmPassword.addEventListener("click", (event) => {
-    alertBox.innerHTML = ""; 
-    confirmPassword.style.border = ""; 
-})
+}) 
 
 // Adding the event listener to the submit button 
 submitBtn.addEventListener("click", (event) => {
@@ -33,15 +26,15 @@ submitBtn.addEventListener("click", (event) => {
 
     // Checking the email address 
     if (!email.value) {
-        // Setting the alert email address. 
+        // Setting the alert box 
         alertBox.innerHTML = "Email address is required!"; 
         email.style.border = "1px solid red"; 
     }
 
-    // Checking if the email address does not contain the 
+    // Else if the email address do not contain the 
     // @ symbol 
     else if (email.value.indexOf("@") === -1 ) {
-        // Setting the alert for the email address 
+        // Setting the alert dialog box 
         alertBox.innerHTML = "Email address is not complete!"; 
         email.style.border = "1px solid red"; 
     }
@@ -54,68 +47,54 @@ submitBtn.addEventListener("click", (event) => {
         password.style.border = "1px solid red"; 
     }
 
-    // Checking the confirm password 
-    else if (!confirmPassword.value) {
-        // Setting the alert box 
-        alertBox.innerHTML = "Confirm password is required!"; 
-        confirmPassword.style.border = "1px solid red"; 
-    }
-
-    // Checking if the password and the confirm password is 
-    // the same 
-    else if(password.value !== confirmPassword.value) {
-        // Checking 
-        alertBox.innerHTML = "Passwords are not correct!";
-        password.style.border = "1px solid red"; 
-        confirmPassword.style.border = "1px solid red";  
-
-    }
-
-    // else if all the fields are correct get the data and send 
-    // it to the backend 
+    // Else if all the field are correct get the data and 
+    // send it to the backend 
     else {
         // Getting the user data 
         const userData = JSON.stringify({
             email: email.value, 
             password: password.value 
-        })
+        }); 
 
         // Setting the server url 
-        const serverUrl = "/signup";
-    
+        const serverUrl = "/login"; 
+
         // Making a fetch request to the backend server 
-        // Using try catch block 
+        // using try catch block to log the error's if any resulted 
         try {
             // Making a fetch request 
             fetch(serverUrl, {
-                method: "POST", 
-                headers: { "Content-Type": "application/json"},
+                method: 'POST', 
+                headers: { 'Content-Type': 'application/json'}, 
                 body: userData, 
+                credentials: "include",
             })
             // Handling the response from the server 
             .then((response) => response.json())
             .then((responseData) => {
                 // Handle the response data on success 
                 if (responseData.status === "success") {
-                    // Redirect the user to the login page 
-                    alertBox.style.color = "green"; 
-                    alertBox.innerHTML = "User successfully registered!"; 
+                    // Redirect the user to the dashboard page 
+                    alertBox.style.color = "rgb(7 150 105)"; 
+                    alertBox.innerHTML = "User logged in successfully!"; 
 
-                    // Redirecting the user to the login page, 
-                    // and delay for 3 seconds  
+                    // Redirecting the user to the dashboard page, and delay for 3 seconds 
                     setTimeout(() => {
-                        window.location.href = "/login"; 
-                    }, 4000);  
+                        // Redirct the user after waiting for 4seconds  
+                        window.location.href = "/dashboard"; 
+                    }, 4000)
                 }
 
-                // Else the status was not success 
+                // Else if the status was not success execute this block 
+                // of code below 
                 else {
-                    // Execute the block of code below if the status 
-                    // message was not successful 
-                    alertBox.innerHTML = responseData.message; 
+                    // Execute the block of code below 
+                    alertBox.innerHTML = responseData.message
                     return; 
                 }
+                 
             })
+
         }
 
         // Catch the error 
@@ -123,10 +102,12 @@ submitBtn.addEventListener("click", (event) => {
             // Logging the error 
             console.error("Error: ", error); 
 
-            // Setting the error in the error message 
+            // Showing the user the error message
             alertBox.innerHTML = String(error); 
         }
-
     }
+
+
+
 
 })
