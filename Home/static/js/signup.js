@@ -38,6 +38,14 @@ submitBtn.addEventListener("click", (event) => {
         email.style.border = "1px solid red"; 
     }
 
+    // Checking if the email address contains the 
+    // @ symbol 
+    else if (email.value.indeOf("@") === -1 ) {
+        // Setting the alert for the email address 
+        alertBox.innerHTML = "Email address is not complete!"; 
+        email.style.border = "1px solid red"; 
+    }
+
     // Checking the password if the user hasn't typed any 
     // value 
     else if (!password.value) {

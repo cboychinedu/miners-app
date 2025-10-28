@@ -784,3 +784,35 @@
 2025-10-27 19:59:04 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
 2025-10-27 19:59:04 - INFO - 127.0.0.1 - - [27/Oct/2025 19:59:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
 2025-10-27 19:59:04 - INFO - 127.0.0.1 - - [27/Oct/2025 19:59:04] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-27 20:26:13 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-27 20:26:13 - INFO -  * Restarting with stat
+2025-10-27 20:26:13 - WARNING -  * Debugger is active!
+2025-10-27 20:26:13 - INFO -  * Debugger PIN: 727-636-671
+2025-10-27 20:28:46 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-27 20:28:46 - INFO -  * Restarting with stat
+2025-10-27 20:28:46 - WARNING -  * Debugger is active!
+2025-10-27 20:28:46 - INFO -  * Debugger PIN: 727-636-671
+2025-10-27 20:30:12 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-27 20:30:12 - INFO -  * Restarting with stat
+2025-10-27 20:30:12 - WARNING -  * Debugger is active!
+2025-10-27 20:30:12 - INFO -  * Debugger PIN: 727-636-671
+2025-10-27 20:33:15 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-27 20:33:15 - INFO -  * Restarting with stat
+2025-10-27 20:33:15 - WARNING -  * Debugger is active!
+2025-10-27 20:33:15 - INFO -  * Debugger PIN: 727-636-671
+2025-10-27 20:37:02 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-27 20:37:03 - INFO -  * Restarting with stat
+2025-10-27 20:37:03 - WARNING -  * Debugger is active!
+2025-10-27 20:37:03 - INFO -  * Debugger PIN: 727-636-671
+2025-10-27 20:43:37 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Test/createDb.py', reloading
+2025-10-27 20:43:37 - INFO -  * Restarting with stat
+2025-10-27 20:43:37 - WARNING -  * Debugger is active!
+2025-10-27 20:43:37 - INFO -  * Debugger PIN: 727-636-671
+2025-10-27 20:43:59 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Test/createDb.py', reloading
+2025-10-27 20:43:59 - INFO -  * Restarting with stat
+2025-10-27 20:43:59 - WARNING -  * Debugger is active!
+2025-10-27 20:43:59 - INFO -  * Debugger PIN: 727-636-671
+2025-10-27 20:44:14 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Test/createDb.py', reloading
+2025-10-27 20:44:14 - INFO -  * Restarting with stat
+2025-10-27 20:44:14 - WARNING -  * Debugger is active!
+2025-10-27 20:44:14 - INFO -  * Debugger PIN: 727-636-671

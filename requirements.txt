@@ -2,4 +2,5 @@ Flask
 flask_cors 
 bcrypt 
 dotenv
+PyJWT
 python-dotenv
