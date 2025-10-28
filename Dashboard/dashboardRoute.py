@@ -53,7 +53,7 @@ def HomePage():
 
     # Mock data for the dashboard
     userData = {
-        "name": "Jane Doe",
+        "fullname": "Jane Doe",
         "email": "xyz@gmail.com",
         "balance": "89,500",
         "totalInvested": "50,000",
@@ -81,12 +81,27 @@ def HomePage():
             userEmail = decoded.get("email")
 
             # Getting the user balance
-            userBalance = db.getUserBalance(userEmail)[0][0]  
+            userBalance = db.getUserDetails(userEmail) 
+
+            # Getting the user details
+            idValue = userBalance[0][0] 
+            firstname = userBalance[0][1]
+            email = userBalance[0][2]
+            balance = userBalance[0][3]
+            totalInvested = userBalance[0][4]
+            totalEarnings = userBalance[0][5] 
+
+            # Get the miners detal 
+            minersDetail = db.getMinersData(userEmail) 
+            print(minersDetail)
 
             # Rendering the html template file 
             return render_template('dashboardHome.html', 
-                                userEmail=userEmail, 
-                                userBalance=userBalance, 
+                                firstname=firstname,
+                                email=email, 
+                                balance=balance, 
+                                totalInvested=totalInvested,
+                                totalEarnings=totalEarnings, 
                                 user=userData
                             )
         
@@ -101,14 +116,14 @@ def HomePage():
             return redirect(url_for('home.LoginPage'))
         
         # On error generated 
-        except Exception as e: 
-            # Any unexpected error, log the error and 
-            # Send it back to the user 
-            return jsonify({
-                "message": str(e), 
-                "status": "error", 
-                "statusCode": 500
-            })
+        # except Exception as e: 
+        #     # Any unexpected error, log the error and 
+        #     # Send it back to the user 
+        #     return jsonify({
+        #         "message": str(e), 
+        #         "status": "error", 
+        #         "statusCode": 500
+        #     })
         
 
 @dashboard.route('/logout', methods=['POST', 'GET'])

@@ -20,7 +20,7 @@ class DatabaseManager:
             # new connection 
             if self.connection is None: 
                 # Connect to the SQLite database 
-                self.connection = sqlite3.connect(self.dbPath)
+                self.connection = sqlite3.connect(self.dbPath, check_same_thread=False)
 
                 # Display the connection status 
                 print("[INFO]: Connected to the database")
@@ -58,13 +58,13 @@ class DatabaseManager:
         return result
     
     # Get the user balance
-    def getUserBalance(self, email):
+    def getUserDetails(self, email):
         # Connecting to the database 
         conn = self.connect()
         cursor = conn.cursor()
 
         # Setting the sql query 
-        query = "SELECT balance FROM users WHERE email = ?"
+        query = "SELECT id, fullname, email, balance, totalInvested, totalEarnings FROM users WHERE email = ?"
         cursor.execute(query, (email, ))
 
         # Fetch one result for the query 
@@ -72,20 +72,47 @@ class DatabaseManager:
 
         # Return the result 
         return result 
+    
+    # Get the miners data
+    def getMinersData(self, email): 
+        # Connecting to the database 
+        conn = self.connect()
+        cursor = conn.cursor()
 
+        # Setting the sql query 
+        query = "SELECT email, minerName, cycleDays, daysRemaining, projectedReturn, status FROM miners WHERE email = ?"
+        cursor.execute(query, (email, ))
+
+        # Fetch one result for the query 
+        result = cursor.fetchall() 
+
+        # Return the result 
+        return result 
     
     # Save a user to the database 
-    def saveUser(self, fullname, email, password): 
+    def saveUser(self, fullname, email, 
+                password, balance=0.00, totalInvested=0.0,
+                totalEarnings=0.00): 
         # Connect to the database 
         conn = self.connect() 
         cursor = conn.cursor() 
 
         # Getting the user data 
-        userData = (fullname, email, password)
+        userData = (fullname, email, password, balance, totalInvested, totalEarnings)
 
         # SQL query to save the users 
-        query = "INSERT INTO users (fullname, email, password) VALUES (?, ?, ?)"
+        query = "INSERT INTO users (fullname, email, password, balance, totalInvested, totalEarnings) VALUES (?, ?, ?, ?, ?, ?)"
         cursor.execute(query, userData)
+
+        # Getting the miner email address 
+        emailAddress = self.getUserDetails(email=email)[0][2]
+
+        # Setting the miners data 
+        minersData = (emailAddress, "", "", "", 5000, "")
+
+        # Setting the SqL query to save the miners data 
+        query = "INSERT INTO miners (email, minerName, cycleDays, daysRemaining, projectedReturn, status) VALUES (?, ?, ?, ?, ?, ?)"
+        cursor.execute(query, minersData)
 
         # Commit the changes 
         conn.commit() 

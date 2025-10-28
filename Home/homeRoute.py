@@ -79,61 +79,74 @@ def LoginPage():
             # Getting the user details 
             data = db.verifyUserByEmail(email=email)
 
-            # Getting the user's data 
-            passwordHash = data[0]
-            email = data[1]
+            if (data):
+                # Getting the user's data 
+                passwordHash = data[0]
+                email = data[1]
 
-            # Verifying the password hash 
-            password = password.encode('utf-8')
-            condition = bcrypt.checkpw(password, passwordHash)
+                # Verifying the password hash 
+                password = password.encode('utf-8')
+                condition = bcrypt.checkpw(password, passwordHash)
 
-            # Checking the condition if the password verification 
-            # return a true value 
-            if (condition):
-                # Generate a token for the user and send it back to 
-                # the client 
-                payload = {
-                    "email": email, 
-                    "exp": datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(minutes=30)
-                }
+                # Checking the condition if the password verification 
+                # return a true value 
+                if (condition):
+                    # Generate a token for the user and send it back to 
+                    # the client 
+                    payload = {
+                        "email": email, 
+                        "exp": datetime.datetime.now(datetime.timezone.utc) + datetime.timedelta(minutes=30)
+                    }
 
-                # Encoding the payload as a jwt token 
-                encodedJwt = jwt.encode(
-                    payload, 
-                    secretKey,
-                    algorithm="HS256"
-                )
+                    # Encoding the payload as a jwt token 
+                    encodedJwt = jwt.encode(
+                        payload, 
+                        secretKey,
+                        algorithm="HS256"
+                    )
 
-                # Prepare the response and set the cookie 
-                responseData = make_response(jsonify({
-                    "message": "Login successful!", 
-                    "status": "success", 
-                    "email": email 
-                }))
+                    # Prepare the response and set the cookie 
+                    responseData = make_response(jsonify({
+                        "message": "Login successful!", 
+                        "status": "success", 
+                        "email": email 
+                    }))
 
-                # Store JWT in HTTP-only cookie 
-                responseData.set_cookie(
-                    key="xAuthToken", 
-                    value=encodedJwt,
-                    httponly=True, 
-                    secure=True, 
-                    samesite="Strict", 
-                    max_age=1800
-                )
+                    # Store JWT in HTTP-only cookie 
+                    responseData.set_cookie(
+                        key="xAuthToken", 
+                        value=encodedJwt,
+                        httponly=True, 
+                        secure=True, 
+                        samesite="Strict", 
+                        max_age=1800
+                    )
 
-                # Return the response header 
-                return responseData
+                    # Return the response header 
+                    return responseData
 
+                else: 
+                    # Generate an error message saying the passwords are 
+                    # Not correct 
+                    errorMessage = { 
+                        "message": "Invalid Email or Password!", 
+                        "status": "error", 
+                        "statusCode": 401
+                    }
+
+                    # Sending the error message
+                    return jsonify(errorMessage); 
+
+            # Else if the user is not found on the database 
             else: 
-                # Generate an error message saying the passwords are 
-                # Not correct 
-                errorMessage = { 
-                    "message": "Invalid Email or Password!", 
+                # 
+                errorMessage = {
                     "status": "error", 
-                    "statusCode": 401
+                    "message": "User not registered on the database", 
+                    "statusCode": 404
                 }
 
-                # Sending the error message
+                # Sending the error message 
                 return jsonify(errorMessage); 
 
         # Unless exception as error, execute the block 

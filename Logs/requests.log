@@ -1984,3 +1984,773 @@
 2025-10-28 14:58:07 - INFO -  * Restarting with stat
 2025-10-28 14:58:07 - WARNING -  * Debugger is active!
 2025-10-28 14:58:07 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:17:11 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Test/createDb.py', reloading
+2025-10-28 15:17:11 - INFO -  * Restarting with stat
+2025-10-28 15:17:11 - WARNING -  * Debugger is active!
+2025-10-28 15:17:11 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:17:36 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 15:17:36 - INFO -  * Restarting with stat
+2025-10-28 15:17:36 - WARNING -  * Debugger is active!
+2025-10-28 15:17:36 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:19:38 - INFO - Request: GET /dashboard/logout - IP: 127.0.0.1
+2025-10-28 15:19:38 - INFO - 127.0.0.1 - - [28/Oct/2025 15:19:38] "[32mGET /dashboard/logout HTTP/1.1[0m" 302 -
+2025-10-28 15:19:38 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 15:19:38 - INFO - 127.0.0.1 - - [28/Oct/2025 15:19:38] "GET /login HTTP/1.1" 200 -
+2025-10-28 15:19:38 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 15:19:38 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 15:19:38 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 15:19:38 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 15:19:38 - INFO - 127.0.0.1 - - [28/Oct/2025 15:19:38] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 15:19:38 - INFO - 127.0.0.1 - - [28/Oct/2025 15:19:38] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 15:19:38 - INFO - 127.0.0.1 - - [28/Oct/2025 15:19:38] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 15:19:38 - INFO - 127.0.0.1 - - [28/Oct/2025 15:19:38] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 15:19:43 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 15:19:43 - INFO - 127.0.0.1 - - [28/Oct/2025 15:19:43] "GET /login HTTP/1.1" 200 -
+2025-10-28 15:19:43 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 15:19:43 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 15:19:43 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 15:19:43 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 15:19:43 - INFO - 127.0.0.1 - - [28/Oct/2025 15:19:43] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 15:19:43 - INFO - 127.0.0.1 - - [28/Oct/2025 15:19:43] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 15:19:43 - INFO - 127.0.0.1 - - [28/Oct/2025 15:19:43] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 15:19:43 - INFO - 127.0.0.1 - - [28/Oct/2025 15:19:43] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 15:19:59 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3001
+2025-10-28 15:19:59 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-28 15:19:59 - INFO -  * Restarting with stat
+2025-10-28 15:19:59 - WARNING -  * Debugger is active!
+2025-10-28 15:19:59 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:20:07 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 15:20:07 - INFO - 127.0.0.1 - - [28/Oct/2025 15:20:07] "GET /login HTTP/1.1" 200 -
+2025-10-28 15:20:07 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 15:20:07 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 15:20:07 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 15:20:07 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 15:20:07 - INFO - 127.0.0.1 - - [28/Oct/2025 15:20:07] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 15:20:07 - INFO - 127.0.0.1 - - [28/Oct/2025 15:20:07] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 15:20:07 - INFO - 127.0.0.1 - - [28/Oct/2025 15:20:07] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 15:20:07 - INFO - 127.0.0.1 - - [28/Oct/2025 15:20:07] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 15:20:09 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 15:20:09 - INFO - 127.0.0.1 - - [28/Oct/2025 15:20:09] "POST /login HTTP/1.1" 200 -
+2025-10-28 15:21:04 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Test/createDb.py', reloading
+2025-10-28 15:21:04 - INFO -  * Restarting with stat
+2025-10-28 15:21:04 - WARNING -  * Debugger is active!
+2025-10-28 15:21:04 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:21:50 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3001
+2025-10-28 15:21:50 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-28 15:21:50 - INFO -  * Restarting with stat
+2025-10-28 15:21:50 - WARNING -  * Debugger is active!
+2025-10-28 15:21:50 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:21:54 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 15:21:54 - INFO - 127.0.0.1 - - [28/Oct/2025 15:21:54] "GET /login HTTP/1.1" 200 -
+2025-10-28 15:21:54 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 15:21:54 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 15:21:54 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 15:21:54 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 15:21:54 - INFO - 127.0.0.1 - - [28/Oct/2025 15:21:54] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 15:21:54 - INFO - 127.0.0.1 - - [28/Oct/2025 15:21:54] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 15:21:54 - INFO - 127.0.0.1 - - [28/Oct/2025 15:21:54] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 15:21:54 - INFO - 127.0.0.1 - - [28/Oct/2025 15:21:54] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 15:21:56 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 15:21:56 - INFO - 127.0.0.1 - - [28/Oct/2025 15:21:56] "POST /login HTTP/1.1" 200 -
+2025-10-28 15:22:54 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 15:22:54 - INFO -  * Restarting with stat
+2025-10-28 15:22:54 - WARNING -  * Debugger is active!
+2025-10-28 15:22:54 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:23:01 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 15:23:01 - INFO - 127.0.0.1 - - [28/Oct/2025 15:23:01] "GET /login HTTP/1.1" 200 -
+2025-10-28 15:23:01 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 15:23:01 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 15:23:01 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 15:23:01 - INFO - 127.0.0.1 - - [28/Oct/2025 15:23:01] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 15:23:01 - INFO - 127.0.0.1 - - [28/Oct/2025 15:23:01] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 15:23:01 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 15:23:01 - INFO - 127.0.0.1 - - [28/Oct/2025 15:23:01] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 15:23:01 - INFO - 127.0.0.1 - - [28/Oct/2025 15:23:01] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 15:23:07 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 15:23:07 - INFO - 127.0.0.1 - - [28/Oct/2025 15:23:07] "POST /login HTTP/1.1" 200 -
+2025-10-28 15:27:05 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 15:27:05 - INFO -  * Restarting with stat
+2025-10-28 15:27:05 - WARNING -  * Debugger is active!
+2025-10-28 15:27:05 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:27:20 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 15:27:20 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:20] "GET /login HTTP/1.1" 200 -
+2025-10-28 15:27:20 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 15:27:20 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 15:27:20 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 15:27:20 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 15:27:20 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:20] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 15:27:20 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:20] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 15:27:20 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:20] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 15:27:20 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:20] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 15:27:22 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 15:27:22 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:22] "POST /login HTTP/1.1" 200 -
+2025-10-28 15:27:29 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 15:27:29 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:29] "GET /signup HTTP/1.1" 200 -
+2025-10-28 15:27:29 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 15:27:29 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:29] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 15:27:29 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 15:27:29 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 15:27:29 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 15:27:29 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:29] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 15:27:29 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:29] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2025-10-28 15:27:29 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:29] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 15:27:55 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 15:27:55 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:55] "POST /signup HTTP/1.1" 200 -
+2025-10-28 15:27:59 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 15:27:59 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:59] "GET /login HTTP/1.1" 200 -
+2025-10-28 15:27:59 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 15:27:59 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 15:27:59 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 15:27:59 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 15:27:59 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:59] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 15:27:59 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:59] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 15:27:59 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:59] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 15:27:59 - INFO - 127.0.0.1 - - [28/Oct/2025 15:27:59] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 15:28:06 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 15:28:06 - INFO - 127.0.0.1 - - [28/Oct/2025 15:28:06] "POST /login HTTP/1.1" 200 -
+2025-10-28 15:28:16 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 15:28:16 - INFO - 127.0.0.1 - - [28/Oct/2025 15:28:16] "POST /login HTTP/1.1" 200 -
+2025-10-28 15:28:18 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 15:28:18 - INFO - 127.0.0.1 - - [28/Oct/2025 15:28:18] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 15:28:30 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 15:28:30 - INFO - 127.0.0.1 - - [28/Oct/2025 15:28:30] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 15:30:07 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 15:30:07 - INFO - 127.0.0.1 - - [28/Oct/2025 15:30:07] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 15:30:33 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 15:30:33 - INFO -  * Restarting with stat
+2025-10-28 15:30:33 - WARNING -  * Debugger is active!
+2025-10-28 15:30:33 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:30:35 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 15:30:35 - INFO - 127.0.0.1 - - [28/Oct/2025 15:30:35] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 15:32:32 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 15:32:32 - INFO -  * Restarting with stat
+2025-10-28 15:32:33 - WARNING -  * Debugger is active!
+2025-10-28 15:32:33 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:34:44 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 15:34:44 - INFO -  * Restarting with stat
+2025-10-28 15:34:44 - WARNING -  * Debugger is active!
+2025-10-28 15:34:44 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:35:22 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 15:35:22 - INFO -  * Restarting with stat
+2025-10-28 15:35:22 - WARNING -  * Debugger is active!
+2025-10-28 15:35:22 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:35:39 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 15:35:39 - INFO - 127.0.0.1 - - [28/Oct/2025 15:35:39] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 15:38:33 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 15:38:33 - INFO -  * Restarting with stat
+2025-10-28 15:38:34 - WARNING -  * Debugger is active!
+2025-10-28 15:38:34 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:39:52 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 15:39:52 - INFO -  * Restarting with stat
+2025-10-28 15:39:52 - WARNING -  * Debugger is active!
+2025-10-28 15:39:52 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:39:54 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 15:39:54 - INFO - 127.0.0.1 - - [28/Oct/2025 15:39:54] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 15:40:01 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 15:40:01 - INFO -  * Restarting with stat
+2025-10-28 15:40:01 - WARNING -  * Debugger is active!
+2025-10-28 15:40:01 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:40:03 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 15:40:03 - INFO - 127.0.0.1 - - [28/Oct/2025 15:40:03] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 15:41:10 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 15:41:10 - INFO - 127.0.0.1 - - [28/Oct/2025 15:41:10] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 15:41:26 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 15:41:26 - INFO - 127.0.0.1 - - [28/Oct/2025 15:41:26] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 15:41:35 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 15:41:35 - INFO - 127.0.0.1 - - [28/Oct/2025 15:41:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 15:42:23 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 15:42:23 - INFO - 127.0.0.1 - - [28/Oct/2025 15:42:23] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 15:42:23 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 15:42:23 - INFO - 127.0.0.1 - - [28/Oct/2025 15:42:23] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 15:43:37 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 15:43:37 - INFO - 127.0.0.1 - - [28/Oct/2025 15:43:37] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 15:43:37 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 15:43:37 - INFO - 127.0.0.1 - - [28/Oct/2025 15:43:37] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 15:46:50 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 15:46:50 - INFO -  * Restarting with stat
+2025-10-28 15:46:50 - WARNING -  * Debugger is active!
+2025-10-28 15:46:50 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:47:38 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 15:47:38 - INFO -  * Restarting with stat
+2025-10-28 15:47:38 - WARNING -  * Debugger is active!
+2025-10-28 15:47:38 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:48:11 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 15:48:11 - INFO -  * Restarting with stat
+2025-10-28 15:48:12 - WARNING -  * Debugger is active!
+2025-10-28 15:48:12 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:48:38 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 15:48:38 - INFO -  * Restarting with stat
+2025-10-28 15:48:38 - WARNING -  * Debugger is active!
+2025-10-28 15:48:38 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:49:11 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 15:49:11 - INFO - 127.0.0.1 - - [28/Oct/2025 15:49:11] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 15:49:11 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 15:49:11 - INFO - 127.0.0.1 - - [28/Oct/2025 15:49:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 15:57:05 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 15:57:05 - INFO -  * Restarting with stat
+2025-10-28 15:57:05 - WARNING -  * Debugger is active!
+2025-10-28 15:57:05 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:59:10 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 15:59:10 - INFO -  * Restarting with stat
+2025-10-28 15:59:10 - WARNING -  * Debugger is active!
+2025-10-28 15:59:10 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 15:59:21 - INFO - Request: GET /dashboard/logout - IP: 127.0.0.1
+2025-10-28 15:59:21 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:21] "[32mGET /dashboard/logout HTTP/1.1[0m" 302 -
+2025-10-28 15:59:21 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 15:59:21 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:21] "GET /login HTTP/1.1" 200 -
+2025-10-28 15:59:21 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 15:59:21 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:21] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 15:59:21 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 15:59:21 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 15:59:21 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 15:59:21 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 15:59:21 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:21] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 15:59:21 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:21] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 15:59:21 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:21] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 15:59:21 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:21] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 15:59:25 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 15:59:25 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:25] "GET /signup HTTP/1.1" 200 -
+2025-10-28 15:59:25 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 15:59:25 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 15:59:25 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 15:59:25 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 15:59:25 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 15:59:25 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 15:59:25 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:25] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 15:59:25 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:25] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 15:59:25 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:25] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2025-10-28 15:59:25 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:25] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 15:59:49 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 15:59:49 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:49] "POST /signup HTTP/1.1" 200 -
+2025-10-28 15:59:53 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 15:59:53 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:53] "GET /login HTTP/1.1" 200 -
+2025-10-28 15:59:53 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 15:59:53 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 15:59:53 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 15:59:53 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 15:59:53 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 15:59:53 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 15:59:53 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:53] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 15:59:53 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:53] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 15:59:53 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:53] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 15:59:53 - INFO - 127.0.0.1 - - [28/Oct/2025 15:59:53] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 16:01:02 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 16:01:02 - INFO -  * Restarting with stat
+2025-10-28 16:01:03 - WARNING -  * Debugger is active!
+2025-10-28 16:01:03 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 16:01:10 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 16:01:10 - INFO - 127.0.0.1 - - [28/Oct/2025 16:01:10] "GET /signup HTTP/1.1" 200 -
+2025-10-28 16:01:10 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:01:10 - INFO - 127.0.0.1 - - [28/Oct/2025 16:01:10] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:01:10 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 16:01:10 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 16:01:10 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 16:01:10 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 16:01:10 - INFO - 127.0.0.1 - - [28/Oct/2025 16:01:10] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 16:01:10 - INFO - 127.0.0.1 - - [28/Oct/2025 16:01:10] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 16:01:10 - INFO - 127.0.0.1 - - [28/Oct/2025 16:01:10] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 16:01:10 - INFO - 127.0.0.1 - - [28/Oct/2025 16:01:10] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2025-10-28 16:01:31 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 16:01:31 - INFO - 127.0.0.1 - - [28/Oct/2025 16:01:31] "POST /signup HTTP/1.1" 200 -
+2025-10-28 16:01:35 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 16:01:35 - INFO - 127.0.0.1 - - [28/Oct/2025 16:01:35] "GET /login HTTP/1.1" 200 -
+2025-10-28 16:01:35 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:01:35 - INFO - 127.0.0.1 - - [28/Oct/2025 16:01:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:01:35 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 16:01:35 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 16:01:35 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 16:01:35 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 16:01:35 - INFO - 127.0.0.1 - - [28/Oct/2025 16:01:35] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 16:01:35 - INFO - 127.0.0.1 - - [28/Oct/2025 16:01:35] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 16:01:35 - INFO - 127.0.0.1 - - [28/Oct/2025 16:01:35] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 16:01:35 - INFO - 127.0.0.1 - - [28/Oct/2025 16:01:35] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 16:04:22 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Test/createDb.py', reloading
+2025-10-28 16:04:22 - INFO -  * Restarting with stat
+2025-10-28 16:04:22 - WARNING -  * Debugger is active!
+2025-10-28 16:04:22 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 16:06:51 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 16:06:51 - INFO -  * Restarting with stat
+2025-10-28 16:06:51 - WARNING -  * Debugger is active!
+2025-10-28 16:06:51 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 16:07:49 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3001
+2025-10-28 16:07:49 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-28 16:07:49 - INFO -  * Restarting with stat
+2025-10-28 16:07:49 - WARNING -  * Debugger is active!
+2025-10-28 16:07:49 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 16:07:56 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 16:07:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:07:56] "GET /login HTTP/1.1" 200 -
+2025-10-28 16:07:56 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:07:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:07:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:07:56 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 16:07:56 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 16:07:56 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 16:07:56 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 16:07:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:07:56] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 16:07:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:07:56] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 16:07:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:07:56] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 16:07:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:07:56] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 16:07:58 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 16:07:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:07:58] "POST /login HTTP/1.1" 200 -
+2025-10-28 16:08:04 - INFO - Request: GET /how-it-works - IP: 127.0.0.1
+2025-10-28 16:08:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:04] "GET /how-it-works HTTP/1.1" 200 -
+2025-10-28 16:08:04 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:08:04 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 16:08:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:08:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:04] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 16:08:04 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 16:08:04 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 16:08:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:04] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 16:08:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:04] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 16:08:07 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 16:08:07 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:07] "GET /login HTTP/1.1" 200 -
+2025-10-28 16:08:07 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:08:07 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:07] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:08:07 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 16:08:07 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:07] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 16:08:07 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 16:08:07 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 16:08:07 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 16:08:07 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:07] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 16:08:07 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:07] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 16:08:07 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:07] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 16:08:08 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 16:08:08 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:08] "POST /login HTTP/1.1" 200 -
+2025-10-28 16:08:11 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 16:08:11 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:11] "GET /signup HTTP/1.1" 200 -
+2025-10-28 16:08:11 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 16:08:11 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:11] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 16:08:11 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 16:08:11 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 16:08:11 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 16:08:11 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:11] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 16:08:11 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:11] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 16:08:11 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:11] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2025-10-28 16:08:11 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:08:11 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:08:21 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 16:08:21 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:21] "POST /signup HTTP/1.1" 200 -
+2025-10-28 16:08:25 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 16:08:25 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:25] "GET /login HTTP/1.1" 200 -
+2025-10-28 16:08:26 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:08:26 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 16:08:26 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:08:26 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 16:08:26 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 16:08:26 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:26] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 16:08:26 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 16:08:26 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:26] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 16:08:26 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:26] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 16:08:26 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:26] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 16:08:30 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 16:08:30 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:30] "POST /login HTTP/1.1" 200 -
+2025-10-28 16:08:32 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:08:32 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:32] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:08:32 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:08:32 - INFO - 127.0.0.1 - - [28/Oct/2025 16:08:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:09:20 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 16:09:20 - INFO -  * Restarting with stat
+2025-10-28 16:09:21 - WARNING -  * Debugger is active!
+2025-10-28 16:09:21 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 16:09:24 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:09:24 - INFO - 127.0.0.1 - - [28/Oct/2025 16:09:24] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:09:24 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:09:24 - INFO - 127.0.0.1 - - [28/Oct/2025 16:09:24] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:10:54 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 16:10:54 - INFO -  * Restarting with stat
+2025-10-28 16:10:54 - WARNING -  * Debugger is active!
+2025-10-28 16:10:54 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 16:11:19 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 16:11:19 - INFO -  * Restarting with stat
+2025-10-28 16:11:20 - WARNING -  * Debugger is active!
+2025-10-28 16:11:20 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 16:12:16 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 16:12:16 - INFO -  * Restarting with stat
+2025-10-28 16:12:16 - WARNING -  * Debugger is active!
+2025-10-28 16:12:16 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 16:12:22 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 16:12:23 - INFO -  * Restarting with stat
+2025-10-28 16:12:23 - WARNING -  * Debugger is active!
+2025-10-28 16:12:23 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 16:14:03 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 16:14:03 - INFO -  * Restarting with stat
+2025-10-28 16:14:03 - WARNING -  * Debugger is active!
+2025-10-28 16:14:03 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 16:14:19 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 16:14:19 - INFO -  * Restarting with stat
+2025-10-28 16:14:19 - WARNING -  * Debugger is active!
+2025-10-28 16:14:19 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 16:15:04 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:04] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:04 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:15 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:15 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:15] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:15 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:15 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:15] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:16 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:16 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:16] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:16 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:16 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:18 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:18 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:18] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:18 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:18 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:18] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:19 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:19 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:19] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:19 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:19 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:19] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:26 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:26 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:26] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:26 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:26 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:26] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:28 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:28 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:28] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:28 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:28 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:28] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:49 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Dashboard/dashboardRoute.py', reloading
+2025-10-28 16:15:49 - INFO -  * Restarting with stat
+2025-10-28 16:15:49 - WARNING -  * Debugger is active!
+2025-10-28 16:15:49 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 16:15:52 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:52 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:52] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:52 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:52 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:52 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:52 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:52] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:52 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:52 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:52] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:53 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:53 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:53] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:53 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:53 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:53 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:53 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:53] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:53 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:53 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:53] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:54 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:54 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:54] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:54 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:54 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:55 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:55] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:55 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:55 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:55] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:55 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:55 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:55] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-10-28 16:15:55 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:55] "GET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-10-28 16:15:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:55] "GET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-10-28 16:15:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:55] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=71ySkBBsyFsj2UxzlsZz HTTP/1.1" 200 -
+2025-10-28 16:15:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:55] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-10-28 16:15:55 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:55] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:55 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:56 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:56] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:56 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:56 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:56] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:56 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:56 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:56] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:56 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:57 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:57] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:57 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:57 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:57] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:57 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:57 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:57] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:57 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:57 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:57] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:57 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:58 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:58] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:58 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:58 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:58] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:58 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:58 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:58] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:58 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:15:59 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:15:59 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:59] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:15:59 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:15:59 - INFO - 127.0.0.1 - - [28/Oct/2025 16:15:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:00 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:16:00 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:00] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:16:00 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:16:00 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:00 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:16:00 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:00] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:16:00 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:16:00 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:02 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:16:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:02] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:16:02 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:16:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:02 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:16:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:02] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-10-28 16:16:02 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:16:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:02] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-28 16:16:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:02] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-28 16:16:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:02] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=71ySkBBsyFsj2UxzlsZz HTTP/1.1[0m" 304 -
+2025-10-28 16:16:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:02] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-28 16:16:02 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:16:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:02] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:16:02 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:16:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:02 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:16:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:02] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:16:02 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:16:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:03 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:16:03 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:03] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-10-28 16:16:03 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:16:03 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:03 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:03] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-28 16:16:03 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:03] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-28 16:16:03 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:03] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=71ySkBBsyFsj2UxzlsZz HTTP/1.1[0m" 304 -
+2025-10-28 16:16:03 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:03] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-28 16:16:03 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:16:03 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:03] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:16:03 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:16:03 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:04 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:16:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:04] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:16:04 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:16:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:04 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:16:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:04] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:16:04 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:16:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:04 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:16:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:04] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-10-28 16:16:04 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:16:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:04] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:04] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-28 16:16:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:04] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-28 16:16:04 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:04] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=71ySkBBsyFsj2UxzlsZz HTTP/1.1[0m" 304 -
+2025-10-28 16:16:05 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:05] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-28 16:16:05 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:16:05 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:05] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:16:05 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:16:05 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:05 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:16:05 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:05] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:16:05 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:16:05 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:06 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:16:06 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:06] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-10-28 16:16:06 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:16:06 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:06] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:16:06 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:06] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-28 16:16:06 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:06] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-28 16:16:06 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:06] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=71ySkBBsyFsj2UxzlsZz HTTP/1.1[0m" 304 -
+2025-10-28 16:16:06 - INFO - 127.0.0.1 - - [28/Oct/2025 16:16:06] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-28 16:17:36 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Database/database.py', reloading
+2025-10-28 16:17:36 - INFO -  * Restarting with stat
+2025-10-28 16:17:36 - WARNING -  * Debugger is active!
+2025-10-28 16:17:36 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 16:17:54 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:54 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:54] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:54 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:54 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:54] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:55 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:55] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:55 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:55 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:55] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:55 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:55 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:55] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:56 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:56] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:56 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:56 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:56] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:56 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:56 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:56] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:56 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:56 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:56] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:57 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:57] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:57 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:57 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:57] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:57 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:57 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:57] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:57 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:57 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:57] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:57 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:57 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:57] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:58 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:58] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:58 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:58 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:58] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:58 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:58 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:58] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:58 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:58 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:58] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:58 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:58] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:58 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:58 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:58] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:59 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:59 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:59 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:59 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:59] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:59 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:59 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:59 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:59 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:59] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:59 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:59 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:59 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:59 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:59] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:59 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:59 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:17:59 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:17:59 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:59] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:17:59 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:17:59 - INFO - 127.0.0.1 - - [28/Oct/2025 16:17:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:00 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:00 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:00] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:00 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:00 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:00 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:00 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:00] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:00 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:00 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:00 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:00 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:00] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:00 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:00 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:00 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:00 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:00] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:00 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:00 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:00 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:00 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:00] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:00 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:00 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:00] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:01 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:01] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:01 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:01 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:01] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:01 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:01 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:01] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:01 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:01 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:01] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:01 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:01 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:01] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:01 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:02 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:02] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:02 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:02 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:02] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:02 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:02 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:02] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:02 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:02 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:02] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:02 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:02 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:02] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:03 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:03 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:03] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:03 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:03 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:03] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:21 - INFO - Request: GET /dashboard/logout - IP: 127.0.0.1
+2025-10-28 16:18:21 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:21] "[32mGET /dashboard/logout HTTP/1.1[0m" 302 -
+2025-10-28 16:18:21 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 16:18:21 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:21] "GET /login HTTP/1.1" 200 -
+2025-10-28 16:18:21 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:21 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:21] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:18:21 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 16:18:21 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 16:18:21 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 16:18:21 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-28 16:18:21 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:21] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 16:18:21 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:21] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-28 16:18:21 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:21] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 16:18:21 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:21] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 16:18:22 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-28 16:18:23 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:23] "POST /login HTTP/1.1" 200 -
+2025-10-28 16:18:25 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:18:25 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:25] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:18:25 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:18:25 - INFO - 127.0.0.1 - - [28/Oct/2025 16:18:25] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:19:01 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:19:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:19:01] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-10-28 16:19:01 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:19:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:19:01] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:19:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:19:01] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-28 16:19:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:19:01] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-28 16:19:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:19:01] "GET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=Cq3QuvmFfd2478yDsBYg HTTP/1.1" 200 -
+2025-10-28 16:19:01 - INFO - 127.0.0.1 - - [28/Oct/2025 16:19:01] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-28 16:19:51 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:19:51 - INFO - 127.0.0.1 - - [28/Oct/2025 16:19:51] "[35m[1mGET /dashboard HTTP/1.1[0m" 500 -
+2025-10-28 16:19:51 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:19:51 - INFO - 127.0.0.1 - - [28/Oct/2025 16:19:51] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:19:51 - INFO - 127.0.0.1 - - [28/Oct/2025 16:19:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-10-28 16:19:51 - INFO - 127.0.0.1 - - [28/Oct/2025 16:19:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-10-28 16:19:51 - INFO - 127.0.0.1 - - [28/Oct/2025 16:19:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png&s=Cq3QuvmFfd2478yDsBYg HTTP/1.1[0m" 304 -
+2025-10-28 16:19:51 - INFO - 127.0.0.1 - - [28/Oct/2025 16:19:51] "[36mGET /dashboard?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+2025-10-28 16:19:59 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:19:59 - INFO - 127.0.0.1 - - [28/Oct/2025 16:19:59] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:19:59 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:19:59 - INFO - 127.0.0.1 - - [28/Oct/2025 16:19:59] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 16:20:50 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 16:20:50 - INFO - 127.0.0.1 - - [28/Oct/2025 16:20:50] "GET /dashboard HTTP/1.1" 200 -
+2025-10-28 16:20:50 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 16:20:50 - INFO - 127.0.0.1 - - [28/Oct/2025 16:20:50] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -

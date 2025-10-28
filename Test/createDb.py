@@ -15,9 +15,10 @@ def setupDB():
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             fullname TEXT NOT NULL,
             email TEXT NOT NULL UNIQUE,
-            balance REAL DEFAULT 0.0,
-            totalInvested REAL DEFAULT 0.0,
-            totalEarnings REAL DEFAULT 0.0
+            password TEXT NOT NULL,
+            balance REAL DEFAULT 0.00,
+            totalInvested REAL DEFAULT 0.00,
+            totalEarnings REAL DEFAULT 0.00
         );
     """)
 
@@ -25,13 +26,12 @@ def setupDB():
     cursor.execute("""
         CREATE TABLE IF NOT EXISTS miners (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
-            userId INTEGER NOT NULL,
-            name TEXT NOT NULL,
+            email TEXT NOT NULL,
+            minerName TEXT NOT NULL,
             cycleDays INTEGER,
             daysRemaining INTEGER,
-            projectedReturn REAL DEFAULT 0.0,
-            status TEXT,
-            FOREIGN KEY (userId) REFERENCES users(id)
+            projectedReturn REAL DEFAULT 0.00,
+            status TEXT
         );
     """)
 
