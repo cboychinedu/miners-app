@@ -2,8 +2,16 @@
 
 # Importing the necssary modules 
 import os 
+import bcrypt
 from datetime import datetime
-from flask import request, Blueprint, render_template, redirect, url_for, jsonify
+from Database.database import DatabaseManager
+from flask import request, Blueprint, render_template, jsonify
+
+# Getting the secret key 
+secretKey = os.getenv("SECRET_KEY")
+
+# Creating an instance of the database manager 
+db = DatabaseManager() 
 
 # Creating the blueprint object 
 home = Blueprint('home', __name__, 
@@ -47,7 +55,7 @@ def minersPage():
         {"name": "PRO I", "price": "4,500", "income": "9,000", "days": 20, "desc": "Entry Level Mining. Perfect for new investors testing the waters.", "accent": "primary"},
         {"name": "PRO II", "price": "8,500", "income": "17,000", "days": 30, "desc": "Standard Mining Power. Higher returns for a balanced investment strategy.", "accent": "primary"},
         {"name": "PRO III", "price": "14,500", "income": "29,000", "days": 40, "desc": "Premium Hash Rate. Accelerated earnings with a longer cycle.", "accent": "primary"},
-        {"name": "PRO IV", "price": "28,500", "income": "37,000", "days": 40, "desc": "Ultra Hash Rate. Maximum capacity with high initial investment.", "accent": "accent"}, # Note: PRO IV accent border
+        {"name": "PRO IV", "price": "28,500", "income": "37,000", "days": 40, "desc": "Ultra Hash Rate. Maximum capacity with high initial investment.", "accent": "accent"}, \
     ]
 
     # Rendering the component
@@ -78,13 +86,73 @@ def SignUp():
         password = userData["password"]
         email = userData['email']
 
-        print(password)
-        print(email) 
+        # Using try finally to get the user from the database 
+        try: 
+            # Checking if the user details are on the sqlite3 database 
+            verifyUser = db.verifyUserByEmail(email=email)
 
-        return jsonify({
-            "status": "success", 
-            "message": "user logged in"
-        }) 
+            # if the verified user exists on the database
+            if (verifyUser): 
+                # Return a message that the user already exists on the database 
+                errorMessage = {
+                    "message": "User already exists!",
+                    "status": "error", 
+                    "statusCode": 400 
+                }
+
+                # Sending the error message 
+                return jsonify(errorMessage); 
+
+            # Else if the user is not found on the database, register 
+            # the user and hash the user password 
+            else: 
+                # Hashing the user password 
+                password = bytes(password.encode('utf-8'))
+                passwordHash = bcrypt.hashpw(password, bcrypt.gensalt())
+
+                # Saving the user details into the database 
+                data = db.saveUser(
+                    email=email, 
+                    password=passwordHash
+                )
+
+                # if the status message was a success 
+                if (data["status"] == "success"): 
+                    # Return the jsonify message 
+                    sucessMessage = {
+                        "message": "User registered successfully!", 
+                        "status": "success", 
+                        "statusCode": 200
+                    }
+
+                    # Send the message 
+                    return jsonify(sucessMessage)
+                
+                # Else if the status message was not a success 
+                else: 
+                    # if the status message is not successful 
+                    errorMessage = {
+                        "message": "Error saving the user on the database!", 
+                        "status": "error", 
+                        "statusCode": 404
+                    }
+
+                    # Send the message 
+                    return jsonify(errorMessage) 
+        
+        # On exception handle the error and send it back to the 
+        # User 
+        except Exception as e: 
+            # Print the error message 
+            print(f"[INFO]: Error {e}")
+
+            # Return the error message 
+            return jsonify({
+                "message": str(e), 
+                "status": "error", 
+                "statusCode": 500 
+            })
+ 
 
     # Else 
     else: 

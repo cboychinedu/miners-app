@@ -816,3 +816,215 @@
 2025-10-27 20:44:14 - INFO -  * Restarting with stat
 2025-10-27 20:44:14 - WARNING -  * Debugger is active!
 2025-10-27 20:44:14 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 08:55:28 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 08:55:28 - INFO -  * Restarting with stat
+2025-10-28 08:55:28 - WARNING -  * Debugger is active!
+2025-10-28 08:55:28 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 08:55:49 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 08:55:50 - INFO -  * Restarting with stat
+2025-10-28 08:55:50 - WARNING -  * Debugger is active!
+2025-10-28 08:55:50 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 09:01:16 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 09:01:16 - INFO -  * Restarting with stat
+2025-10-28 09:01:16 - WARNING -  * Debugger is active!
+2025-10-28 09:01:16 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 10:09:46 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 10:09:46 - INFO -  * Restarting with stat
+2025-10-28 10:09:47 - WARNING -  * Debugger is active!
+2025-10-28 10:09:47 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 10:14:09 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 10:14:09 - INFO -  * Restarting with stat
+2025-10-28 10:14:09 - WARNING -  * Debugger is active!
+2025-10-28 10:14:09 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 10:15:00 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 10:15:00 - INFO -  * Restarting with stat
+2025-10-28 10:15:00 - WARNING -  * Debugger is active!
+2025-10-28 10:15:00 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 10:15:18 - INFO - Request: GET / - IP: 127.0.0.1
+2025-10-28 10:15:18 - INFO - 127.0.0.1 - - [28/Oct/2025 10:15:18] "GET / HTTP/1.1" 200 -
+2025-10-28 10:15:18 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 10:15:18 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 10:15:18 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 10:15:18 - INFO - 127.0.0.1 - - [28/Oct/2025 10:15:18] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 10:15:18 - INFO - 127.0.0.1 - - [28/Oct/2025 10:15:18] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 10:15:18 - INFO - 127.0.0.1 - - [28/Oct/2025 10:15:18] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 10:15:21 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 10:15:21 - INFO - 127.0.0.1 - - [28/Oct/2025 10:15:21] "GET /signup HTTP/1.1" 200 -
+2025-10-28 10:15:21 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 10:15:21 - INFO - 127.0.0.1 - - [28/Oct/2025 10:15:21] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 10:15:21 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 10:15:21 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 10:15:21 - INFO - 127.0.0.1 - - [28/Oct/2025 10:15:21] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 10:15:21 - INFO - 127.0.0.1 - - [28/Oct/2025 10:15:21] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 10:15:21 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 10:15:21 - INFO - 127.0.0.1 - - [28/Oct/2025 10:15:21] "GET /static/js/signup.js HTTP/1.1" 200 -
+2025-10-28 10:15:31 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 10:15:31 - INFO - 127.0.0.1 - - [28/Oct/2025 10:15:31] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 10:15:31 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 10:15:31 - INFO - 127.0.0.1 - - [28/Oct/2025 10:15:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 10:16:36 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 10:16:36 - INFO - 127.0.0.1 - - [28/Oct/2025 10:16:36] "GET /signup HTTP/1.1" 200 -
+2025-10-28 10:16:36 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 10:16:36 - INFO - 127.0.0.1 - - [28/Oct/2025 10:16:36] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 10:16:36 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 10:16:36 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 10:16:36 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 10:16:36 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 10:16:36 - INFO - 127.0.0.1 - - [28/Oct/2025 10:16:36] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 10:16:36 - INFO - 127.0.0.1 - - [28/Oct/2025 10:16:36] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 10:16:36 - INFO - 127.0.0.1 - - [28/Oct/2025 10:16:36] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2025-10-28 10:16:36 - INFO - 127.0.0.1 - - [28/Oct/2025 10:16:36] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 10:17:05 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 10:17:05 - INFO - 127.0.0.1 - - [28/Oct/2025 10:17:05] "GET /signup HTTP/1.1" 200 -
+2025-10-28 10:17:05 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 10:17:05 - INFO - 127.0.0.1 - - [28/Oct/2025 10:17:05] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 10:17:05 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 10:17:05 - INFO - 127.0.0.1 - - [28/Oct/2025 10:17:05] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 10:17:05 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 10:17:05 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 10:17:05 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 10:17:05 - INFO - 127.0.0.1 - - [28/Oct/2025 10:17:05] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 10:17:05 - INFO - 127.0.0.1 - - [28/Oct/2025 10:17:05] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 10:17:05 - INFO - 127.0.0.1 - - [28/Oct/2025 10:17:05] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2025-10-28 10:17:40 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 10:17:40 - INFO - 127.0.0.1 - - [28/Oct/2025 10:17:40] "GET /signup HTTP/1.1" 200 -
+2025-10-28 10:17:40 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 10:17:40 - INFO - 127.0.0.1 - - [28/Oct/2025 10:17:40] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 10:17:40 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 10:17:40 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 10:17:40 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 10:17:40 - INFO - 127.0.0.1 - - [28/Oct/2025 10:17:40] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 10:17:40 - INFO - 127.0.0.1 - - [28/Oct/2025 10:17:40] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 10:17:40 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 10:17:40 - INFO - 127.0.0.1 - - [28/Oct/2025 10:17:40] "GET /static/js/signup.js HTTP/1.1" 200 -
+2025-10-28 10:17:40 - INFO - 127.0.0.1 - - [28/Oct/2025 10:17:40] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 10:17:51 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 10:17:51 - INFO - 127.0.0.1 - - [28/Oct/2025 10:17:51] "POST /signup HTTP/1.1" 200 -
+2025-10-28 10:28:45 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 10:28:46 - INFO -  * Restarting with stat
+2025-10-28 10:28:46 - WARNING -  * Debugger is active!
+2025-10-28 10:28:46 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 10:29:32 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 10:29:32 - INFO - 127.0.0.1 - - [28/Oct/2025 10:29:32] "GET /signup HTTP/1.1" 200 -
+2025-10-28 10:29:32 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 10:29:32 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 10:29:32 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 10:29:32 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 10:29:32 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 10:29:32 - INFO - 127.0.0.1 - - [28/Oct/2025 10:29:32] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 10:29:32 - INFO - 127.0.0.1 - - [28/Oct/2025 10:29:32] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 10:29:32 - INFO - 127.0.0.1 - - [28/Oct/2025 10:29:32] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 10:29:32 - INFO - 127.0.0.1 - - [28/Oct/2025 10:29:32] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 10:29:32 - INFO - 127.0.0.1 - - [28/Oct/2025 10:29:32] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2025-10-28 10:29:37 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 10:29:38 - INFO - 127.0.0.1 - - [28/Oct/2025 10:29:38] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2025-10-28 10:30:36 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 10:30:36 - INFO -  * Restarting with stat
+2025-10-28 10:30:36 - WARNING -  * Debugger is active!
+2025-10-28 10:30:36 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 10:30:56 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 10:30:56 - INFO - 127.0.0.1 - - [28/Oct/2025 10:30:56] "POST /signup HTTP/1.1" 200 -
+2025-10-28 10:32:26 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3001
+2025-10-28 10:32:26 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-28 10:32:26 - INFO -  * Restarting with stat
+2025-10-28 10:32:26 - WARNING -  * Debugger is active!
+2025-10-28 10:32:26 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 10:32:35 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 10:32:35 - INFO - 127.0.0.1 - - [28/Oct/2025 10:32:35] "GET /signup HTTP/1.1" 200 -
+2025-10-28 10:32:35 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 10:32:35 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 10:32:35 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 10:32:35 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 10:32:35 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 10:32:35 - INFO - 127.0.0.1 - - [28/Oct/2025 10:32:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 10:32:35 - INFO - 127.0.0.1 - - [28/Oct/2025 10:32:35] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 10:32:35 - INFO - 127.0.0.1 - - [28/Oct/2025 10:32:35] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 10:32:35 - INFO - 127.0.0.1 - - [28/Oct/2025 10:32:35] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 10:32:35 - INFO - 127.0.0.1 - - [28/Oct/2025 10:32:35] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2025-10-28 10:32:46 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 10:32:46 - INFO - 127.0.0.1 - - [28/Oct/2025 10:32:46] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2025-10-28 10:34:03 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 10:34:03 - INFO -  * Restarting with stat
+2025-10-28 10:34:03 - WARNING -  * Debugger is active!
+2025-10-28 10:34:03 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 10:34:31 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 10:34:31 - INFO - 127.0.0.1 - - [28/Oct/2025 10:34:31] "GET /signup HTTP/1.1" 200 -
+2025-10-28 10:34:31 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 10:34:31 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 10:34:31 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 10:34:31 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 10:34:31 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 10:34:31 - INFO - 127.0.0.1 - - [28/Oct/2025 10:34:31] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 10:34:31 - INFO - 127.0.0.1 - - [28/Oct/2025 10:34:31] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 10:34:31 - INFO - 127.0.0.1 - - [28/Oct/2025 10:34:31] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 10:34:31 - INFO - 127.0.0.1 - - [28/Oct/2025 10:34:31] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 10:34:31 - INFO - 127.0.0.1 - - [28/Oct/2025 10:34:31] "[36mGET /static/js/signup.js HTTP/1.1[0m" 304 -
+2025-10-28 10:34:45 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 10:34:45 - INFO - 127.0.0.1 - - [28/Oct/2025 10:34:45] "[35m[1mPOST /signup HTTP/1.1[0m" 500 -
+2025-10-28 10:35:19 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 10:35:19 - INFO -  * Restarting with stat
+2025-10-28 10:35:19 - WARNING -  * Debugger is active!
+2025-10-28 10:35:19 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 10:37:08 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 10:37:08 - INFO -  * Restarting with stat
+2025-10-28 10:37:08 - WARNING -  * Debugger is active!
+2025-10-28 10:37:09 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 10:37:19 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3001
+2025-10-28 10:37:19 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-28 10:37:19 - INFO -  * Restarting with stat
+2025-10-28 10:37:19 - WARNING -  * Debugger is active!
+2025-10-28 10:37:19 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 10:37:25 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 10:37:25 - INFO - 127.0.0.1 - - [28/Oct/2025 10:37:25] "POST /signup HTTP/1.1" 200 -
+2025-10-28 10:37:42 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 10:37:43 - INFO - 127.0.0.1 - - [28/Oct/2025 10:37:43] "POST /signup HTTP/1.1" 200 -
+2025-10-28 10:37:46 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-28 10:37:46 - INFO - 127.0.0.1 - - [28/Oct/2025 10:37:46] "[33mGET /dashboard HTTP/1.1[0m" 404 -
+2025-10-28 10:37:46 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 10:37:46 - INFO - 127.0.0.1 - - [28/Oct/2025 10:37:46] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 10:38:31 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 10:38:31 - INFO -  * Restarting with stat
+2025-10-28 10:38:31 - WARNING -  * Debugger is active!
+2025-10-28 10:38:31 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 10:38:39 - INFO -  * Detected change in '/Users/mbonuchinedu/Documents/Projects/minerApp/Home/homeRoute.py', reloading
+2025-10-28 10:38:39 - INFO -  * Restarting with stat
+2025-10-28 10:38:39 - WARNING -  * Debugger is active!
+2025-10-28 10:38:39 - INFO -  * Debugger PIN: 727-636-671
+2025-10-28 10:40:08 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 10:40:08 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 10:40:08 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 10:40:08 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 10:40:08 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 10:40:08 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:08] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 10:40:11 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 10:40:11 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:11] "POST /signup HTTP/1.1" 200 -
+2025-10-28 10:40:14 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 10:40:14 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:14] "POST /signup HTTP/1.1" 200 -
+2025-10-28 10:40:16 - INFO - Request: GET /signup - IP: 127.0.0.1
+2025-10-28 10:40:16 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:16] "GET /signup HTTP/1.1" 200 -
+2025-10-28 10:40:16 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 10:40:16 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:16] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-28 10:40:16 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 10:40:16 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 10:40:16 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:16] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 10:40:16 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:16] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 10:40:16 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 10:40:16 - INFO - Request: GET /static/js/signup.js - IP: 127.0.0.1
+2025-10-28 10:40:16 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:16] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 10:40:16 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:16] "GET /static/js/signup.js HTTP/1.1" 200 -
+2025-10-28 10:40:25 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 10:40:25 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:25] "POST /signup HTTP/1.1" 200 -
+2025-10-28 10:40:46 - INFO - Request: POST /signup - IP: 127.0.0.1
+2025-10-28 10:40:46 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:46] "POST /signup HTTP/1.1" 200 -
+2025-10-28 10:40:50 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-28 10:40:50 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:50] "GET /login HTTP/1.1" 200 -
+2025-10-28 10:40:50 - INFO - Request: GET /.well-known/appspecific/com.chrome.devtools.json - IP: 127.0.0.1
+2025-10-28 10:40:50 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:50] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-10-28 10:40:50 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-28 10:40:50 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-28 10:40:50 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-28 10:40:50 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:50] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-28 10:40:50 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:50] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-28 10:40:50 - INFO - 127.0.0.1 - - [28/Oct/2025 10:40:50] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -

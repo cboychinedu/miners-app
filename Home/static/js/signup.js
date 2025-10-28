@@ -1,5 +1,5 @@
 // Greetings message 
-console.log("This script was writted by Mbonu Chinedum"); 
+console.log("This script was written by Mbonu Chinedum"); 
 
 // Getting the dom elements 
 const email = document.getElementById("email"); 
@@ -40,7 +40,7 @@ submitBtn.addEventListener("click", (event) => {
 
     // Checking if the email address contains the 
     // @ symbol 
-    else if (email.value.indeOf("@") === -1 ) {
+    else if (email.value.indexOf("@") === -1 ) {
         // Setting the alert for the email address 
         alertBox.innerHTML = "Email address is not complete!"; 
         email.style.border = "1px solid red"; 
@@ -104,8 +104,8 @@ submitBtn.addEventListener("click", (event) => {
                     // Redirecting the user to the dashboard page, 
                     // and delay for 3 seconds  
                     setTimeout(() => {
-                        window.location.href = "/dashboard"; 
-                    }, 3000);  
+                        window.location.href = "/login"; 
+                    }, 4000);  
                 }
 
                 // Else the status was not success 
