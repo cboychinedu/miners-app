@@ -10,6 +10,7 @@ from flask import request, Blueprint, render_template, jsonify, make_response
 
 # Getting the secret key 
 secretKey = os.getenv("SECRET_KEY")
+domainName = os.getenv("HOST")
 
 # Creating an instance of the database manager 
 db = DatabaseManager() 
@@ -118,6 +119,7 @@ def LoginPage():
                         value=encodedJwt,
                         httponly=True, 
                         secure=True, 
+                        domain=domainName,
                         samesite="Strict", 
                         max_age=1800
                     )
