@@ -3466,3 +3466,39 @@
 2025-10-29 16:27:21 - INFO - 127.0.0.1 - - [29/Oct/2025 16:27:21] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
 2025-10-29 16:27:21 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
 2025-10-29 16:27:21 - INFO - 127.0.0.1 - - [29/Oct/2025 16:27:21] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-29 16:45:33 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://localhost:3001
+2025-10-29 16:45:33 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-29 16:45:33 - INFO -  * Restarting with stat
+2025-10-29 16:45:33 - WARNING -  * Debugger is active!
+2025-10-29 16:45:33 - INFO -  * Debugger PIN: 727-636-671
+2025-10-29 16:45:43 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-29 16:45:43 - INFO - 127.0.0.1 - - [29/Oct/2025 16:45:43] "GET /login HTTP/1.1" 200 -
+2025-10-29 16:45:43 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-29 16:45:43 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-29 16:45:43 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-29 16:45:43 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-29 16:45:43 - INFO - 127.0.0.1 - - [29/Oct/2025 16:45:43] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-29 16:45:43 - INFO - 127.0.0.1 - - [29/Oct/2025 16:45:43] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -
+2025-10-29 16:45:43 - INFO - 127.0.0.1 - - [29/Oct/2025 16:45:43] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-29 16:45:43 - INFO - 127.0.0.1 - - [29/Oct/2025 16:45:43] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-29 16:45:55 - INFO - Request: POST /login - IP: 127.0.0.1
+2025-10-29 16:45:55 - INFO - 127.0.0.1 - - [29/Oct/2025 16:45:55] "POST /login HTTP/1.1" 200 -
+2025-10-29 16:45:57 - INFO - Request: GET /dashboard - IP: 127.0.0.1
+2025-10-29 16:45:57 - INFO - 127.0.0.1 - - [29/Oct/2025 16:45:57] "GET /dashboard HTTP/1.1" 200 -
+2025-10-29 16:45:57 - INFO - Request: GET /dashboard/static/js/tailwindConfig.js - IP: 127.0.0.1
+2025-10-29 16:45:57 - INFO - 127.0.0.1 - - [29/Oct/2025 16:45:57] "[36mGET /dashboard/static/js/tailwindConfig.js HTTP/1.1[0m" 304 -
+2025-10-29 16:45:57 - INFO - Request: GET /dashboard/static/css/tailwindCdn.css - IP: 127.0.0.1
+2025-10-29 16:45:57 - INFO - 127.0.0.1 - - [29/Oct/2025 16:45:57] "[36mGET /dashboard/static/css/tailwindCdn.css HTTP/1.1[0m" 304 -
+2025-10-29 16:46:00 - INFO - Request: GET /dashboard/logout - IP: 127.0.0.1
+2025-10-29 16:46:00 - INFO - 127.0.0.1 - - [29/Oct/2025 16:46:00] "[32mGET /dashboard/logout HTTP/1.1[0m" 302 -
+2025-10-29 16:46:00 - INFO - Request: GET /login - IP: 127.0.0.1
+2025-10-29 16:46:00 - INFO - 127.0.0.1 - - [29/Oct/2025 16:46:00] "GET /login HTTP/1.1" 200 -
+2025-10-29 16:46:00 - INFO - Request: GET /static/js/header.js - IP: 127.0.0.1
+2025-10-29 16:46:00 - INFO - Request: GET /static/css/navigator.css - IP: 127.0.0.1
+2025-10-29 16:46:00 - INFO - Request: GET /static/js/navigator.js - IP: 127.0.0.1
+2025-10-29 16:46:00 - INFO - 127.0.0.1 - - [29/Oct/2025 16:46:00] "[36mGET /static/js/header.js HTTP/1.1[0m" 304 -
+2025-10-29 16:46:00 - INFO - Request: GET /static/js/login.js - IP: 127.0.0.1
+2025-10-29 16:46:00 - INFO - 127.0.0.1 - - [29/Oct/2025 16:46:00] "[36mGET /static/css/navigator.css HTTP/1.1[0m" 304 -
+2025-10-29 16:46:00 - INFO - 127.0.0.1 - - [29/Oct/2025 16:46:00] "[36mGET /static/js/navigator.js HTTP/1.1[0m" 304 -
+2025-10-29 16:46:00 - INFO - 127.0.0.1 - - [29/Oct/2025 16:46:00] "[36mGET /static/js/login.js HTTP/1.1[0m" 304 -

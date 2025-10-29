@@ -1,1 +1,4 @@
 .env
+.env/
+Database/database.db 
+/Database/database.db 

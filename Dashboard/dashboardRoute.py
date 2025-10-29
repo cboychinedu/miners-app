@@ -207,7 +207,7 @@ def LogoutPage():
         value="",
         expires=0,       
         httponly=True,
-        secure=True,
+        secure=False,
         samesite="Strict"
     )
 
