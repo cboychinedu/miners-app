@@ -91,7 +91,7 @@ class DatabaseManager:
     
     # Save a user to the database 
     def saveUser(self, fullname, email, 
-                password, balance=0.00, totalInvested=0.0,
+                password, balance=1000.0, totalInvested=0.0,
                 totalEarnings=0.00): 
         # Connect to the database 
         conn = self.connect() 

@@ -16,7 +16,7 @@ def setupDB():
             fullname TEXT NOT NULL,
             email TEXT NOT NULL UNIQUE,
             password TEXT NOT NULL,
-            balance REAL DEFAULT 0.00,
+            balance REAL DEFAULT 1000.0,
             totalInvested REAL DEFAULT 0.00,
             totalEarnings REAL DEFAULT 0.00
         );

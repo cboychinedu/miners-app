@@ -60,6 +60,58 @@ def TransactionPage():
         # Render the transactions page 
         return render_template("transactionsPage.html", **transactionData)
 
+# Adding the deposit page 
+@dashboard.route('/deposit', methods=['POST', 'GET'])
+def DepositPage(): 
+    # Getting the user's token 
+    token = request.cookies.get("xAuthToken") 
+
+    # if the token is not present, redirect the user to the 
+    # login page 
+    if not token: 
+        # Redirect the user to the login page 
+        return redirect(url_for('home.LoginPage'))
+    
+    # Else if the token was correct, decode the token and 
+    # save the user email 
+    else: 
+        # Decode the jwt token using try catch block 
+        try:
+            # Decode the token 
+            decoded = jwt.decode(token, secretKey, algorithms=["HS256"])
+            userEmail = decoded.get("email")
+
+            # Getting the user details 
+            userDetails = db.getUserDetails(userEmail)
+
+            # Getting the user fullname 
+            fullname = userDetails[0][1]
+
+            # Rendering the html template file 
+            return render_template('deposit.html', fullname=fullname)
+    
+        except ExpiredSignatureError: 
+            # Token expired - redirect the user to the login page 
+            return redirect(url_for('home.LoginPage'))
+        
+        # if the token is invalid 
+        except InvalidTokenError: 
+            # Token invalid - redirect to login page 
+            return redirect(url_for('home.LoginPage'))
+        
+        # On error generated 
+        except Exception as e: 
+            # Setting the error message 
+            errorMessage = {
+                "message": str(e), 
+                "status": "error", 
+                "statusCode": 500
+            }
+
+            # Sending the error message 
+            return jsonify(errorMessage) 
+
+
 # Creating the dashbaord home page 
 @dashboard.route('/', methods=['GET', 'POST'])
 def HomePage(): 
@@ -96,7 +148,7 @@ def HomePage():
             decoded = jwt.decode(token, secretKey, algorithms=["HS256"])
             userEmail = decoded.get("email")
 
-            # Getting the user balance
+            # Getting the user details 
             userBalance = db.getUserDetails(userEmail) 
 
             # Getting the user details
@@ -139,7 +191,7 @@ def HomePage():
                 "status": "error", 
                 "statusCode": 500
             })
-        
+         
 
 @dashboard.route('/logout', methods=['POST', 'GET'])
 def LogoutPage():

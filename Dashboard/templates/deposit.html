@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deposit | MinerHub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="{{ url_for('.static', filename='js/tailwindConfig.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('.static', filename='css/tailwindCdn.css') }}">
+    
+    <script src="https://checkout.flutterwave.com/v3.js"></script>
+</head>
+<body class="bg-dark-bg text-gray-100 font-sans min-h-screen">
+
+    <header class="p-4 bg-card-bg shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="/dashboard" class="text-2xl font-bold text-primary tracking-wider">
+                Miner<span class="text-accent">Hub</span>
+            </a>
+            <div class="flex items-center space-x-4">
+                <div class="hidden sm:block text-sm text-gray-300">Welcome, {{ fullname.split(' ')[1] }}</div>
+                <a href="/dashboard/logout" class="bg-red-600 hover:bg-red-700 text-white font-semibold px-4 py-2 text-sm rounded-lg shadow-md transition duration-300">
+                    Logout
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-xl mx-auto p-4 md:p-8 h-[90vh] mt-[100px]">
+        
+        <div class="mb-8 p-6 bg-card-bg rounded-xl shadow-xl border-l-4 border-accent">
+            <h1 class="text-3xl font-bold mb-2 flex items-center text-accent">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4" />
+                </svg>
+                Fund Your Wallet
+            </h1>
+            <p class="text-gray-400">Securely deposit funds using Flutterwave to activate new miners.</p>
+        </div>
+
+        <div class="bg-card-bg p-6 rounded-xl shadow-lg border-t-4 border-primary">
+            <h3 class="text-xl font-semibold mb-4 text-gray-50">Deposit Details</h3>
+            
+            <form id="depositForm">
+                <div class="mb-6 p-4 bg-gray-700/50 rounded-lg">
+                    <p class="text-sm font-medium text-gray-400">Current Wallet Balance (NGN)</p>
+                    <p class="text-2xl font-extrabold text-accent">{{ balance }}</p>
+                </div>
+
+                <div class="mb-6">
+                    <label for="deposit-amount" class="block text-sm font-medium text-gray-300 mb-2">
+                        Amount to Deposit (NGN)
+                    </label>
+                    <input type="number" id="deposit-amount" name="amount" min="1000" step="500" required
+                           placeholder="e.g., 50000" 
+                           class="w-full p-3 rounded-lg bg-gray-700 border border-gray-600 text-gray-100 placeholder-gray-400 focus:ring-primary focus:border-primary">
+                    <p class="text-xs text-gray-500 mt-2">Minimum deposit: NGN 1,000.00</p>
+                </div>
+
+                <button type="submit" id="depositButton" class="w-full flex items-center justify-center bg-primary hover:bg-green-700 text-white py-3 rounded-lg font-medium transition duration-300 shadow-md">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m0-6V9m4 0h6m-6 0h-2" />
+                    </svg>
+                    Proceed to Payment
+                </button>
+            </form>
+            
+            <div id="payment-status" class="mt-4 text-center text-sm font-semibold hidden"></div>
+
+        </div>
+
+    </main>
+    
+    <footer class="p-4 bg-card-bg mt-12">
+        <div class="max-w-7xl mx-auto text-center text-gray-500 text-sm">
+            <p>&copy; 2024 MinerHub Dashboard. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    <script>
+        const depositForm = document.getElementById('depositForm');
+        const depositAmount = document.getElementById('deposit-amount');
+        const paymentStatus = document.getElementById('payment-status');
+
+        // This function initiates the Flutterwave payment process
+        function makePayment(amount) {
+            FlutterwaveCheckout({
+                public_key: "{{ FLUTTERWAVE_PUBLIC_KEY }}", // Passed from Flask context
+                tx_ref: "TX-{{ user_id }}-" + Date.now(), // Generate a unique transaction reference
+                amount: amount,
+                currency: "NGN",
+                country: "NG",
+                payment_options: "card,mobilemoney,ussd",
+                customer: {
+                    email: "{{ email }}", // Passed from Flask context
+                    phone_number: "{{ phone_number }}", // Passed from Flask context
+                    name: "{{ firstname }}", // Passed from Flask context
+                },
+                callback: function (data) { // function to handle successful payment
+                    console.log(data);
+                    
+                    // Send transaction verification data back to your Flask server
+                    fetch('/dashboard/deposit/verify', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({
+                            tx_ref: data.tx_ref,
+                            transaction_id: data.transaction_id,
+                            amount: data.amount,
+                            status: data.status,
+                            currency: data.currency
+                        })
+                    })
+                    .then(response => response.json())
+                    .then(result => {
+                        paymentStatus.classList.remove('hidden');
+                        if (result.success) {
+                            paymentStatus.textContent = 'Deposit Successful! Redirecting...';
+                            paymentStatus.className = 'mt-4 text-center text-sm font-semibold text-primary';
+                            window.location.href = '/dashboard'; // Redirect to dashboard
+                        } else {
+                            paymentStatus.textContent = 'Payment verified, but failed: ' + result.message;
+                            paymentStatus.className = 'mt-4 text-center text-sm font-semibold text-red-400';
+                        }
+                    });
+                },
+                onclose: function() {
+                    paymentStatus.classList.remove('hidden');
+                    paymentStatus.textContent = 'Payment window closed. Please try again.';
+                    paymentStatus.className = 'mt-4 text-center text-sm font-semibold text-yellow-400';
+                },
+                customizations: {
+                    title: "MinerHub Deposit",
+                    description: "Funding Wallet Balance",
+                    logo: "https://yourwebsite.com/logo.png", // Replace with your logo URL
+                },
+            });
+        }
+
+        // Form Submission Handler
+        depositForm.addEventListener('submit', function(event) {
+            event.preventDefault();
+            const amount = parseFloat(depositAmount.value);
+            
+            if (amount && amount >= 1000) {
+                makePayment(amount);
+            } else {
+                alert('Please enter a valid amount (minimum NGN 1,000).');
+            }
+        });
+
+    </script>
+</body>
+</html>

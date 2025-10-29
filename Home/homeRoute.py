@@ -24,8 +24,20 @@ home = Blueprint('home', __name__,
 # Creating the home page 
 @home.route("/", methods=["GET", "POST"])
 def HomePage(): 
-    # Rendering the html template file 
-    return render_template("home.html"); 
+    # Getting the user's token 
+    token = request.cookies.get("xAuthToken")
+
+    # if the token is not present, execute the block of code below 
+    if not token: 
+        # Rendering the html template file 
+        return render_template("home.html", isLoggedIn=False)
+    
+    # Else if the token is present 
+    else: 
+        # Get the user token and parse a value into the 
+        # html document 
+        return render_template("home.html", isLoggedIn=True)
+
 
 
 # Creating a route for the how it works page 
@@ -34,7 +46,20 @@ def howItWorks():
     """
     Renders the How It Works page, explaining the process.
     """
-    return render_template('howItWorks.html')
+    # Getting the user's token 
+    token = request.cookies.get("xAuthToken")
+
+    # if the token is not present, execute the block of 
+    # code below 
+    if not token: 
+        # Rendering the how it works html file 
+        return render_template('howItWorks.html', isLoggedIn=False)
+    
+    # Else if the token is present
+    else: 
+        # Get the user token and parse the isLoggedin value as 
+        # True inside the html doc
+        return render_template('howItWorks.html', isLoggedIn=True)
 
 # Creating the route for the about page 
 @home.route('/about')
@@ -42,8 +67,19 @@ def aboutPage():
     """
     Renders the About Us page.
     """
-    # Rendering the about page 
-    return render_template('about.html')
+    # Getting the user's token 
+    token = request.cookies.get("xAuthToken")
+
+    # if the token is not present, execute the block of 
+    # code below 
+    if not token: 
+        # Rendering the about page 
+        return render_template("about.html", isLoggedIn=False)
+    
+    # Else if the token is present
+    else: 
+        # Rendering the about page 
+        return render_template('about.html', isLoggedIn=True)
 
 
 # Creating the miners page 
@@ -60,8 +96,21 @@ def minersPage():
         {"name": "PRO IV", "price": "28,500", "income": "37,000", "days": 40, "desc": "Ultra Hash Rate. Maximum capacity with high initial investment.", "accent": "accent"}, \
     ]
 
-    # Rendering the component
-    return render_template('miners.html', miners=minerData)
+    # Getting the user's token 
+    token = request.cookies.get("xAuthToken")
+
+    # if the token is not present, execute the block of 
+    # code below 
+    if not token: 
+        # Rendering the miner.html template file 
+        return render_template('miners.html', miners=minerData, isLoggedIn=False)
+    
+    # Else if the token is present, execute the 
+    # Block of code below 
+    else: 
+        # Get the user token and parse the isLogged value 
+        # inside the miners.html doc 
+        return render_template('miners.html', miners=minerData, isLoggedIn=True)
 
 
 # Creating the login page 
@@ -279,3 +328,19 @@ def SignUp():
         else: 
             # Render the signup page 
             return render_template('signup.html')
+        
+
+# Creating a route for forget password 
+@home.route("/forgot-password", methods=["POST", "GET"])
+def ForgotPassword(): 
+    # if the request was a post request 
+    if request.method == "POST": 
+        return jsonify({
+            "message": "You have reached the forgot-password post request"
+        })
+    
+    # Else if the request method was a get request or any other 
+    # request 
+    else: 
+        # Render the forgot password page 
+        return render_template("forgotPassword.html")
