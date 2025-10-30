@@ -5,6 +5,7 @@ import os
 import jwt
 import bcrypt
 import datetime
+from Email.emailSender import SendEmail
 from Database.database import DatabaseManager
 from flask import request, Blueprint, render_template, jsonify, make_response, redirect, url_for
 
@@ -335,10 +336,46 @@ def SignUp():
 def ForgotPassword(): 
     # if the request was a post request 
     if request.method == "POST": 
-        return jsonify({
-            "message": "You have reached the forgot-password post request"
-        })
-    
+        # Get the json objects 
+        emailData = request.get_json()
+
+        # Getting the reveiver email 
+        receiverEmail = emailData["receiverEmail"]
+        senderEmail = os.getenv("senderEmail")
+        appPassword = os.getenv("appPassword")
+
+        # Sending the verification code to the email address 
+        mailSender = SendEmail(senderEmail, receiverEmail, appPassword)
+
+        # Using try except block to send the email 
+        try: 
+            # Send the email 
+            mailSender.senderEmail() 
+
+            # Building the response message 
+            responseMessage = {
+                "status": "success", 
+                "message": "Email message sent", 
+                "statusCode": 200
+            }
+
+            # Sending the response message 
+            return jsonify(responseMessage) 
+
+        # Except 
+        except Exception as error: 
+            print(error)
+            # Getting the error message 
+            errroMessage = {
+                "status": "error", 
+                "message": "Error sending the email", 
+                "statusCode": 404
+            }
+
+            # Sending the response message 
+            return jsonify(errroMessage)
+
+
     # Else if the request method was a get request or any other 
     # request 
     else: 

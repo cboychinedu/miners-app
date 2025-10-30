@@ -4,3 +4,4 @@ bcrypt
 dotenv
 PyJWT
 python-dotenv
+secure-smtplib 
